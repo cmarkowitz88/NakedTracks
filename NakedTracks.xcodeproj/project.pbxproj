@@ -14,6 +14,24 @@
 		29153CAF1A7D74CF00E03D07 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29153CAE1A7D74CF00E03D07 /* Images.xcassets */; };
 		29153CB21A7D74CF00E03D07 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29153CB01A7D74CF00E03D07 /* LaunchScreen.xib */; };
 		29153CBE1A7D74CF00E03D07 /* NakedTracksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29153CBD1A7D74CF00E03D07 /* NakedTracksTests.m */; };
+		29153CCA1A7D75A200E03D07 /* NakedTracksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29153CC81A7D75A200E03D07 /* NakedTracksViewController.m */; };
+		29153CCB1A7D75A200E03D07 /* NakedTracksViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29153CC91A7D75A200E03D07 /* NakedTracksViewController.xib */; };
+		29153CCE1A7D847E00E03D07 /* Song.m in Sources */ = {isa = PBXBuildFile; fileRef = 29153CCD1A7D847E00E03D07 /* Song.m */; };
+		29153CD01A7D877A00E03D07 /* songlist.json in Resources */ = {isa = PBXBuildFile; fileRef = 29153CCF1A7D877A00E03D07 /* songlist.json */; };
+		292D2F361A91628D003C1C7C /* Console.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 292D2F351A91628D003C1C7C /* Console.jpg */; };
+		292D2F391A916679003C1C7C /* NakedTracksMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 292D2F381A916679003C1C7C /* NakedTracksMainView.m */; };
+		292D2F3B1A91789A003C1C7C /* mixer.png in Resources */ = {isa = PBXBuildFile; fileRef = 292D2F3A1A91789A003C1C7C /* mixer.png */; };
+		29B60D281A9C140E00A64B77 /* Knewave-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 29B60D271A9C12F700A64B77 /* Knewave-Regular.ttf */; };
+		29B675331A867728001F7B6F /* i_can_see_for_miles.wav in Resources */ = {isa = PBXBuildFile; fileRef = 29B675321A867728001F7B6F /* i_can_see_for_miles.wav */; };
+		29B675371A8C1FA5001F7B6F /* come_together_bass_intro.wav in Resources */ = {isa = PBXBuildFile; fileRef = 29B675361A8C1FA5001F7B6F /* come_together_bass_intro.wav */; };
+		29B675391A8C1FB8001F7B6F /* 2112.wav in Resources */ = {isa = PBXBuildFile; fileRef = 29B675381A8C1FB8001F7B6F /* 2112.wav */; };
+		29B6753B1A8C1FC4001F7B6F /* kansas.wav in Resources */ = {isa = PBXBuildFile; fileRef = 29B6753A1A8C1FC4001F7B6F /* kansas.wav */; };
+		29B6753D1A8C1FCE001F7B6F /* lady_madonna_bridge_bass.wav in Resources */ = {isa = PBXBuildFile; fileRef = 29B6753C1A8C1FCE001F7B6F /* lady_madonna_bridge_bass.wav */; };
+		29B6753F1A8C1FD7001F7B6F /* lonely_is_the_night.wav in Resources */ = {isa = PBXBuildFile; fileRef = 29B6753E1A8C1FD7001F7B6F /* lonely_is_the_night.wav */; };
+		29B675411A8C1FE3001F7B6F /* stranglehold.wav in Resources */ = {isa = PBXBuildFile; fileRef = 29B675401A8C1FE3001F7B6F /* stranglehold.wav */; };
+		29B675431A8C1FEC001F7B6F /* want_you_to_want_me.wav in Resources */ = {isa = PBXBuildFile; fileRef = 29B675421A8C1FEC001F7B6F /* want_you_to_want_me.wav */; };
+		29B675451A8C1FF4001F7B6F /* while_my_guitar_gently_weeps.wav in Resources */ = {isa = PBXBuildFile; fileRef = 29B675441A8C1FF4001F7B6F /* while_my_guitar_gently_weeps.wav */; };
+		29F9D9F51A81C43A00FB9D13 /* fly_by_night_gtr.wav in Resources */ = {isa = PBXBuildFile; fileRef = 29F9D9F41A81C43A00FB9D13 /* fly_by_night_gtr.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +58,27 @@
 		29153CB71A7D74CF00E03D07 /* NakedTracksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NakedTracksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29153CBC1A7D74CF00E03D07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29153CBD1A7D74CF00E03D07 /* NakedTracksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NakedTracksTests.m; sourceTree = "<group>"; };
+		29153CC71A7D75A200E03D07 /* NakedTracksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NakedTracksViewController.h; sourceTree = "<group>"; };
+		29153CC81A7D75A200E03D07 /* NakedTracksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NakedTracksViewController.m; sourceTree = "<group>"; };
+		29153CC91A7D75A200E03D07 /* NakedTracksViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NakedTracksViewController.xib; sourceTree = "<group>"; };
+		29153CCC1A7D847E00E03D07 /* Song.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Song.h; sourceTree = "<group>"; };
+		29153CCD1A7D847E00E03D07 /* Song.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Song.m; sourceTree = "<group>"; };
+		29153CCF1A7D877A00E03D07 /* songlist.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = songlist.json; sourceTree = "<group>"; };
+		292D2F351A91628D003C1C7C /* Console.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Console.jpg; sourceTree = "<group>"; };
+		292D2F371A916679003C1C7C /* NakedTracksMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NakedTracksMainView.h; sourceTree = "<group>"; };
+		292D2F381A916679003C1C7C /* NakedTracksMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NakedTracksMainView.m; sourceTree = "<group>"; };
+		292D2F3A1A91789A003C1C7C /* mixer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mixer.png; sourceTree = "<group>"; };
+		29B60D271A9C12F700A64B77 /* Knewave-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Knewave-Regular.ttf"; sourceTree = "<group>"; };
+		29B675321A867728001F7B6F /* i_can_see_for_miles.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = i_can_see_for_miles.wav; sourceTree = "<group>"; };
+		29B675361A8C1FA5001F7B6F /* come_together_bass_intro.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = come_together_bass_intro.wav; sourceTree = "<group>"; };
+		29B675381A8C1FB8001F7B6F /* 2112.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 2112.wav; sourceTree = "<group>"; };
+		29B6753A1A8C1FC4001F7B6F /* kansas.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = kansas.wav; sourceTree = "<group>"; };
+		29B6753C1A8C1FCE001F7B6F /* lady_madonna_bridge_bass.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = lady_madonna_bridge_bass.wav; sourceTree = "<group>"; };
+		29B6753E1A8C1FD7001F7B6F /* lonely_is_the_night.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = lonely_is_the_night.wav; sourceTree = "<group>"; };
+		29B675401A8C1FE3001F7B6F /* stranglehold.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = stranglehold.wav; sourceTree = "<group>"; };
+		29B675421A8C1FEC001F7B6F /* want_you_to_want_me.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = want_you_to_want_me.wav; sourceTree = "<group>"; };
+		29B675441A8C1FF4001F7B6F /* while_my_guitar_gently_weeps.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = while_my_guitar_gently_weeps.wav; sourceTree = "<group>"; };
+		29F9D9F41A81C43A00FB9D13 /* fly_by_night_gtr.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fly_by_night_gtr.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +102,30 @@
 		29153C951A7D74CF00E03D07 = {
 			isa = PBXGroup;
 			children = (
+				29153CC71A7D75A200E03D07 /* NakedTracksViewController.h */,
+				29153CCC1A7D847E00E03D07 /* Song.h */,
+				29153CCD1A7D847E00E03D07 /* Song.m */,
+				29153CC81A7D75A200E03D07 /* NakedTracksViewController.m */,
+				292D2F371A916679003C1C7C /* NakedTracksMainView.h */,
+				292D2F381A916679003C1C7C /* NakedTracksMainView.m */,
+				29153CC91A7D75A200E03D07 /* NakedTracksViewController.xib */,
 				29153CA01A7D74CF00E03D07 /* NakedTracks */,
 				29153CBA1A7D74CF00E03D07 /* NakedTracksTests */,
 				29153C9F1A7D74CF00E03D07 /* Products */,
+				29153CCF1A7D877A00E03D07 /* songlist.json */,
+				29F9D9F41A81C43A00FB9D13 /* fly_by_night_gtr.wav */,
+				29B675321A867728001F7B6F /* i_can_see_for_miles.wav */,
+				29B675361A8C1FA5001F7B6F /* come_together_bass_intro.wav */,
+				29B675381A8C1FB8001F7B6F /* 2112.wav */,
+				29B6753A1A8C1FC4001F7B6F /* kansas.wav */,
+				29B6753C1A8C1FCE001F7B6F /* lady_madonna_bridge_bass.wav */,
+				29B6753E1A8C1FD7001F7B6F /* lonely_is_the_night.wav */,
+				29B675401A8C1FE3001F7B6F /* stranglehold.wav */,
+				29B675421A8C1FEC001F7B6F /* want_you_to_want_me.wav */,
+				29B675441A8C1FF4001F7B6F /* while_my_guitar_gently_weeps.wav */,
+				292D2F351A91628D003C1C7C /* Console.jpg */,
+				292D2F3A1A91789A003C1C7C /* mixer.png */,
+				29B60D271A9C12F700A64B77 /* Knewave-Regular.ttf */,
 			);
 			sourceTree = "<group>";
 		};
@@ -168,9 +228,11 @@
 				TargetAttributes = {
 					29153C9D1A7D74CF00E03D07 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = F489G5J9B9;
 					};
 					29153CB61A7D74CF00E03D07 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = F489G5J9B9;
 						TestTargetID = 29153C9D1A7D74CF00E03D07;
 					};
 				};
@@ -199,9 +261,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29B60D281A9C140E00A64B77 /* Knewave-Regular.ttf in Resources */,
+				29B675371A8C1FA5001F7B6F /* come_together_bass_intro.wav in Resources */,
+				29B675431A8C1FEC001F7B6F /* want_you_to_want_me.wav in Resources */,
+				29B6753B1A8C1FC4001F7B6F /* kansas.wav in Resources */,
+				29B6753F1A8C1FD7001F7B6F /* lonely_is_the_night.wav in Resources */,
+				29F9D9F51A81C43A00FB9D13 /* fly_by_night_gtr.wav in Resources */,
+				29153CCB1A7D75A200E03D07 /* NakedTracksViewController.xib in Resources */,
 				29153CAD1A7D74CF00E03D07 /* Main.storyboard in Resources */,
+				29B675411A8C1FE3001F7B6F /* stranglehold.wav in Resources */,
+				29B675391A8C1FB8001F7B6F /* 2112.wav in Resources */,
 				29153CB21A7D74CF00E03D07 /* LaunchScreen.xib in Resources */,
+				29B675451A8C1FF4001F7B6F /* while_my_guitar_gently_weeps.wav in Resources */,
+				29153CD01A7D877A00E03D07 /* songlist.json in Resources */,
+				29B675331A867728001F7B6F /* i_can_see_for_miles.wav in Resources */,
+				292D2F361A91628D003C1C7C /* Console.jpg in Resources */,
 				29153CAF1A7D74CF00E03D07 /* Images.xcassets in Resources */,
+				29B6753D1A8C1FCE001F7B6F /* lady_madonna_bridge_bass.wav in Resources */,
+				292D2F3B1A91789A003C1C7C /* mixer.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,7 +296,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29153CCE1A7D847E00E03D07 /* Song.m in Sources */,
+				29153CCA1A7D75A200E03D07 /* NakedTracksViewController.m in Sources */,
 				29153CAA1A7D74CF00E03D07 /* ViewController.m in Sources */,
+				292D2F391A916679003C1C7C /* NakedTracksMainView.m in Sources */,
 				29153CA71A7D74CF00E03D07 /* AppDelegate.m in Sources */,
 				29153CA41A7D74CF00E03D07 /* main.m in Sources */,
 			);
@@ -363,6 +443,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -374,6 +456,7 @@
 				INFOPLIST_FILE = NakedTracksTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NakedTracks.app/NakedTracks";
 			};
 			name = Debug;
@@ -382,6 +465,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -389,6 +474,7 @@
 				INFOPLIST_FILE = NakedTracksTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NakedTracks.app/NakedTracks";
 			};
 			name = Release;
@@ -412,6 +498,7 @@
 				29153CC31A7D74CF00E03D07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		29153CC41A7D74CF00E03D07 /* Build configuration list for PBXNativeTarget "NakedTracksTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +507,7 @@
 				29153CC61A7D74CF00E03D07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
