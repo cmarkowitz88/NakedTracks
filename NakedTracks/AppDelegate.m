@@ -58,12 +58,6 @@ AVAudioPlayer *avSound;
     
     AVAudioSession *session = [AVAudioSession sharedInstance];
     [session setCategory:AVAudioSessionCategoryPlayback error:nil];
-    
-    //NSString *folderAndFile = downloadRequest.downloadingFileURL;
-    //NSString *audioFilePath = [[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)objectAtIndex:0]stringByAppendingString:folderAndFile];
-    
-    
-    //NSURL *soundUrl = [[NSBundle mainBundle]URLForResource:downloadingFilePath withExtension:@"wav"];
     NSURL *soundUrl = [NSURL fileURLWithPath:downloadingFilePath ];
     avSound = [[AVAudioPlayer alloc]initWithContentsOfURL:soundUrl error:nil];
     [avSound prepareToPlay];
