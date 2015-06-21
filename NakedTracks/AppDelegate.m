@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "NakedTracksViewController.h"
+#import "NakedTracksMainView.h"
+#import <AWSCORE/awscore.h>
+#import <AWSS3/AWSS3.h>
 
 @interface AppDelegate ()
 
@@ -14,9 +18,63 @@
 
 @implementation AppDelegate
 
+AVAudioPlayer *avSound;
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    NakedTracksViewController *nakedVC = [[NakedTracksViewController alloc]init];
+    self.window.rootViewController = nakedVC;
+    
+    AWSCognitoCredentialsProvider *credentialsProvider = [[AWSCognitoCredentialsProvider alloc]initWithRegionType:AWSRegionUSEast1 identityPoolId:@"us-east-1:896a2892-7e49-4a1f-b8d8-254b57b457bd"];
+    
+    AWSServiceConfiguration *configuration  = [[AWSServiceConfiguration alloc]initWithRegion:AWSRegionUSEast1 credentialsProvider:credentialsProvider];
+    
+    AWSServiceManager.defaultServiceManager.defaultServiceConfiguration = configuration;
+    
+    NSString *downloadingFilePath = [NSTemporaryDirectory() stringByAppendingPathComponent:@"Allright_Now_Gtr_Chorus.wav"];
+    NSURL *downloadingFileUrl = [NSURL fileURLWithPath:downloadingFilePath];
+    
+    AWSS3TransferManagerDownloadRequest *downloadRequest = [AWSS3TransferManagerDownloadRequest new];
+    downloadRequest.bucket = @"nakedtracks.audio";
+    downloadRequest.key = @"Allright_Now_Gtr_Chorus.wav";
+    downloadRequest.downloadingFileURL = downloadingFileUrl;
+    
+    AWSS3TransferManager *transferManager = [AWSS3TransferManager defaultS3TransferManager];
+    NSLog(@"Download started, please wait...");
+    
+    [[transferManager download:downloadRequest] continueWithExecutor:[BFExecutor mainThreadExecutor]
+                                                           withBlock:^id(BFTask *task){
+                                                               if (task.error != nil) {
+                                                                   NSLog(@"%s %@","Error downloading :", downloadRequest.key);
+                                                               }
+                                                               else {
+                                                                   NSLog(@"download completed");
+                                                                   
+                                                               }
+                                                               return nil;
+                                                           }];
+    
+    
+    AVAudioSession *session = [AVAudioSession sharedInstance];
+    [session setCategory:AVAudioSessionCategoryPlayback error:nil];
+    
+    //NSString *folderAndFile = downloadRequest.downloadingFileURL;
+    //NSString *audioFilePath = [[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)objectAtIndex:0]stringByAppendingString:folderAndFile];
+    
+    
+    //NSURL *soundUrl = [[NSBundle mainBundle]URLForResource:downloadingFilePath withExtension:@"wav"];
+    NSURL *soundUrl = [NSURL fileURLWithPath:downloadingFilePath ];
+    avSound = [[AVAudioPlayer alloc]initWithContentsOfURL:soundUrl error:nil];
+    [avSound prepareToPlay];
+    [avSound play];
+    
+    
+    
+    
+    //CGRect firstFrame = self.window.bounds;
+    //NakedTracksViewController *nakedVC = [[NakedTracksViewController alloc] initWithFrame:firstFrame];
+    
     return YES;
 }
 

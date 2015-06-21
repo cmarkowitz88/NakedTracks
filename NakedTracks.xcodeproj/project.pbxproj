@@ -18,20 +18,36 @@
 		29153CCB1A7D75A200E03D07 /* NakedTracksViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29153CC91A7D75A200E03D07 /* NakedTracksViewController.xib */; };
 		29153CCE1A7D847E00E03D07 /* Song.m in Sources */ = {isa = PBXBuildFile; fileRef = 29153CCD1A7D847E00E03D07 /* Song.m */; };
 		29153CD01A7D877A00E03D07 /* songlist.json in Resources */ = {isa = PBXBuildFile; fileRef = 29153CCF1A7D877A00E03D07 /* songlist.json */; };
-		292D2F361A91628D003C1C7C /* Console.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 292D2F351A91628D003C1C7C /* Console.jpg */; };
 		292D2F391A916679003C1C7C /* NakedTracksMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 292D2F381A916679003C1C7C /* NakedTracksMainView.m */; };
 		292D2F3B1A91789A003C1C7C /* mixer.png in Resources */ = {isa = PBXBuildFile; fileRef = 292D2F3A1A91789A003C1C7C /* mixer.png */; };
 		29B60D281A9C140E00A64B77 /* Knewave-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 29B60D271A9C12F700A64B77 /* Knewave-Regular.ttf */; };
-		29B675331A867728001F7B6F /* i_can_see_for_miles.wav in Resources */ = {isa = PBXBuildFile; fileRef = 29B675321A867728001F7B6F /* i_can_see_for_miles.wav */; };
-		29B675371A8C1FA5001F7B6F /* come_together_bass_intro.wav in Resources */ = {isa = PBXBuildFile; fileRef = 29B675361A8C1FA5001F7B6F /* come_together_bass_intro.wav */; };
-		29B675391A8C1FB8001F7B6F /* 2112.wav in Resources */ = {isa = PBXBuildFile; fileRef = 29B675381A8C1FB8001F7B6F /* 2112.wav */; };
-		29B6753B1A8C1FC4001F7B6F /* kansas.wav in Resources */ = {isa = PBXBuildFile; fileRef = 29B6753A1A8C1FC4001F7B6F /* kansas.wav */; };
-		29B6753D1A8C1FCE001F7B6F /* lady_madonna_bridge_bass.wav in Resources */ = {isa = PBXBuildFile; fileRef = 29B6753C1A8C1FCE001F7B6F /* lady_madonna_bridge_bass.wav */; };
-		29B6753F1A8C1FD7001F7B6F /* lonely_is_the_night.wav in Resources */ = {isa = PBXBuildFile; fileRef = 29B6753E1A8C1FD7001F7B6F /* lonely_is_the_night.wav */; };
-		29B675411A8C1FE3001F7B6F /* stranglehold.wav in Resources */ = {isa = PBXBuildFile; fileRef = 29B675401A8C1FE3001F7B6F /* stranglehold.wav */; };
 		29B675431A8C1FEC001F7B6F /* want_you_to_want_me.wav in Resources */ = {isa = PBXBuildFile; fileRef = 29B675421A8C1FEC001F7B6F /* want_you_to_want_me.wav */; };
-		29B675451A8C1FF4001F7B6F /* while_my_guitar_gently_weeps.wav in Resources */ = {isa = PBXBuildFile; fileRef = 29B675441A8C1FF4001F7B6F /* while_my_guitar_gently_weeps.wav */; };
-		29F9D9F51A81C43A00FB9D13 /* fly_by_night_gtr.wav in Resources */ = {isa = PBXBuildFile; fileRef = 29F9D9F41A81C43A00FB9D13 /* fly_by_night_gtr.wav */; };
+		29BB0AC01AB450B40056674D /* 2112.wav in Resources */ = {isa = PBXBuildFile; fileRef = 29BB0ABF1AB450B40056674D /* 2112.wav */; };
+		29BB0AC21AB451080056674D /* Carry_On_Wayward_Son.wav in Resources */ = {isa = PBXBuildFile; fileRef = 29BB0AC11AB451080056674D /* Carry_On_Wayward_Son.wav */; };
+		29BB0AC41AB451680056674D /* Come_Together_Verse.wav in Resources */ = {isa = PBXBuildFile; fileRef = 29BB0AC31AB451680056674D /* Come_Together_Verse.wav */; };
+		29BB0AC61AB451A70056674D /* Fly_By_Night_GTR_Chorus.wav in Resources */ = {isa = PBXBuildFile; fileRef = 29BB0AC51AB451A70056674D /* Fly_By_Night_GTR_Chorus.wav */; };
+		29BB0AC81AB4520C0056674D /* Lady_Madonna_Bridge.wav in Resources */ = {isa = PBXBuildFile; fileRef = 29BB0AC71AB4520C0056674D /* Lady_Madonna_Bridge.wav */; };
+		29BB0ACC1AB4537E0056674D /* Lonely_Is_The_Night_Intro.wav in Resources */ = {isa = PBXBuildFile; fileRef = 29BB0ACB1AB4537E0056674D /* Lonely_Is_The_Night_Intro.wav */; };
+		29BB0ACE1AB453F30056674D /* Stranglehold.wav in Resources */ = {isa = PBXBuildFile; fileRef = 29BB0ACD1AB453F30056674D /* Stranglehold.wav */; };
+		29BB0AD01AB454770056674D /* I_Can_See_For_Miles.wav in Resources */ = {isa = PBXBuildFile; fileRef = 29BB0ACF1AB454770056674D /* I_Can_See_For_Miles.wav */; };
+		29BB0AD21AB4551A0056674D /* Red_Barchetta_BASS_Intro.wav in Resources */ = {isa = PBXBuildFile; fileRef = 29BB0AD11AB4551A0056674D /* Red_Barchetta_BASS_Intro.wav */; };
+		29BB0AD61AB458560056674D /* Lady_Madonna_Intro_Verse.wav in Resources */ = {isa = PBXBuildFile; fileRef = 29BB0AD51AB458560056674D /* Lady_Madonna_Intro_Verse.wav */; };
+		29BB0AD81AB4D3F70056674D /* Test_Console.gif in Resources */ = {isa = PBXBuildFile; fileRef = 29BB0AD71AB4D3F70056674D /* Test_Console.gif */; };
+		29CE6EEF1AC22B69003353E0 /* answerlist.json in Resources */ = {isa = PBXBuildFile; fileRef = 29CE6EEE1AC22B69003353E0 /* answerlist.json */; };
+		29E47FE91AD5E7330071A59C /* Answer.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E47FE81AD5E7330071A59C /* Answer.m */; };
+		29E47FED1AE300FE0071A59C /* And_So_It_Goes.wav in Resources */ = {isa = PBXBuildFile; fileRef = 29E47FEA1AE300FE0071A59C /* And_So_It_Goes.wav */; };
+		29E47FF21AE306DE0071A59C /* Captain_Jack.wav in Resources */ = {isa = PBXBuildFile; fileRef = 29E47FF01AE306DE0071A59C /* Captain_Jack.wav */; };
+		29E47FF31AE306DE0071A59C /* Highway_To_Hell_Chorus.wav in Resources */ = {isa = PBXBuildFile; fileRef = 29E47FF11AE306DE0071A59C /* Highway_To_Hell_Chorus.wav */; };
+		29E47FF61AE310450071A59C /* Dont_Let_The_Sun_Go_Down_Intro.wav in Resources */ = {isa = PBXBuildFile; fileRef = 29E47FF41AE310450071A59C /* Dont_Let_The_Sun_Go_Down_Intro.wav */; };
+		29E47FF71AE310450071A59C /* Goodbye_YellowBrickRoad.wav in Resources */ = {isa = PBXBuildFile; fileRef = 29E47FF51AE310450071A59C /* Goodbye_YellowBrickRoad.wav */; };
+		29E47FF91AE45C600071A59C /* Allright_Now_Gtr_Chorus.wav in Resources */ = {isa = PBXBuildFile; fileRef = 29E47FF81AE45C600071A59C /* Allright_Now_Gtr_Chorus.wav */; };
+		29E47FFB1AE45C730071A59C /* Back_In_The_Ussr_Intro.wav in Resources */ = {isa = PBXBuildFile; fileRef = 29E47FFA1AE45C730071A59C /* Back_In_The_Ussr_Intro.wav */; };
+		29E47FFD1AE45C850071A59C /* Day_Tripper_GTR_Intro.wav in Resources */ = {isa = PBXBuildFile; fileRef = 29E47FFC1AE45C850071A59C /* Day_Tripper_GTR_Intro.wav */; };
+		29E47FFF1AE45C8F0071A59C /* House_of_the_rising_sun.wav in Resources */ = {isa = PBXBuildFile; fileRef = 29E47FFE1AE45C8F0071A59C /* House_of_the_rising_sun.wav */; };
+		29E480011AE45C9F0071A59C /* John_Lenon_Imagine.wav in Resources */ = {isa = PBXBuildFile; fileRef = 29E480001AE45C9F0071A59C /* John_Lenon_Imagine.wav */; };
+		29E480041AE45CAE0071A59C /* Knock_Me_Off_My_Feet.wav in Resources */ = {isa = PBXBuildFile; fileRef = 29E480021AE45CAE0071A59C /* Knock_Me_Off_My_Feet.wav */; };
+		29E480051AE45CAE0071A59C /* Wonderwall_Acoustic_Intro.wav in Resources */ = {isa = PBXBuildFile; fileRef = 29E480031AE45CAE0071A59C /* Wonderwall_Acoustic_Intro.wav */; };
+		9645E9701EC7D0556D443357 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B50B16C0AC037CFEDB1CF132 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +61,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		26F0BAAA14E52ECBBA02AE3F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		29153C9E1A7D74CF00E03D07 /* NakedTracks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NakedTracks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29153CA21A7D74CF00E03D07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29153CA31A7D74CF00E03D07 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -64,21 +81,39 @@
 		29153CCC1A7D847E00E03D07 /* Song.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Song.h; sourceTree = "<group>"; };
 		29153CCD1A7D847E00E03D07 /* Song.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Song.m; sourceTree = "<group>"; };
 		29153CCF1A7D877A00E03D07 /* songlist.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = songlist.json; sourceTree = "<group>"; };
-		292D2F351A91628D003C1C7C /* Console.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Console.jpg; sourceTree = "<group>"; };
 		292D2F371A916679003C1C7C /* NakedTracksMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NakedTracksMainView.h; sourceTree = "<group>"; };
 		292D2F381A916679003C1C7C /* NakedTracksMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NakedTracksMainView.m; sourceTree = "<group>"; };
 		292D2F3A1A91789A003C1C7C /* mixer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mixer.png; sourceTree = "<group>"; };
 		29B60D271A9C12F700A64B77 /* Knewave-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Knewave-Regular.ttf"; sourceTree = "<group>"; };
-		29B675321A867728001F7B6F /* i_can_see_for_miles.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = i_can_see_for_miles.wav; sourceTree = "<group>"; };
-		29B675361A8C1FA5001F7B6F /* come_together_bass_intro.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = come_together_bass_intro.wav; sourceTree = "<group>"; };
-		29B675381A8C1FB8001F7B6F /* 2112.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 2112.wav; sourceTree = "<group>"; };
-		29B6753A1A8C1FC4001F7B6F /* kansas.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = kansas.wav; sourceTree = "<group>"; };
-		29B6753C1A8C1FCE001F7B6F /* lady_madonna_bridge_bass.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = lady_madonna_bridge_bass.wav; sourceTree = "<group>"; };
-		29B6753E1A8C1FD7001F7B6F /* lonely_is_the_night.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = lonely_is_the_night.wav; sourceTree = "<group>"; };
-		29B675401A8C1FE3001F7B6F /* stranglehold.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = stranglehold.wav; sourceTree = "<group>"; };
 		29B675421A8C1FEC001F7B6F /* want_you_to_want_me.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = want_you_to_want_me.wav; sourceTree = "<group>"; };
-		29B675441A8C1FF4001F7B6F /* while_my_guitar_gently_weeps.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = while_my_guitar_gently_weeps.wav; sourceTree = "<group>"; };
-		29F9D9F41A81C43A00FB9D13 /* fly_by_night_gtr.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fly_by_night_gtr.wav; sourceTree = "<group>"; };
+		29BB0ABF1AB450B40056674D /* 2112.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 2112.wav; sourceTree = "<group>"; };
+		29BB0AC11AB451080056674D /* Carry_On_Wayward_Son.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Carry_On_Wayward_Son.wav; sourceTree = "<group>"; };
+		29BB0AC31AB451680056674D /* Come_Together_Verse.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Come_Together_Verse.wav; sourceTree = "<group>"; };
+		29BB0AC51AB451A70056674D /* Fly_By_Night_GTR_Chorus.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Fly_By_Night_GTR_Chorus.wav; sourceTree = "<group>"; };
+		29BB0AC71AB4520C0056674D /* Lady_Madonna_Bridge.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Lady_Madonna_Bridge.wav; sourceTree = "<group>"; };
+		29BB0ACB1AB4537E0056674D /* Lonely_Is_The_Night_Intro.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Lonely_Is_The_Night_Intro.wav; sourceTree = "<group>"; };
+		29BB0ACD1AB453F30056674D /* Stranglehold.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Stranglehold.wav; sourceTree = "<group>"; };
+		29BB0ACF1AB454770056674D /* I_Can_See_For_Miles.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = I_Can_See_For_Miles.wav; sourceTree = "<group>"; };
+		29BB0AD11AB4551A0056674D /* Red_Barchetta_BASS_Intro.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Red_Barchetta_BASS_Intro.wav; sourceTree = "<group>"; };
+		29BB0AD51AB458560056674D /* Lady_Madonna_Intro_Verse.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Lady_Madonna_Intro_Verse.wav; sourceTree = "<group>"; };
+		29BB0AD71AB4D3F70056674D /* Test_Console.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Test_Console.gif; sourceTree = "<group>"; };
+		29CE6EEE1AC22B69003353E0 /* answerlist.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = answerlist.json; sourceTree = "<group>"; };
+		29E47FE71AD5E7330071A59C /* Answer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Answer.h; sourceTree = "<group>"; };
+		29E47FE81AD5E7330071A59C /* Answer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Answer.m; sourceTree = "<group>"; };
+		29E47FEA1AE300FE0071A59C /* And_So_It_Goes.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = And_So_It_Goes.wav; sourceTree = "<group>"; };
+		29E47FF01AE306DE0071A59C /* Captain_Jack.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Captain_Jack.wav; sourceTree = "<group>"; };
+		29E47FF11AE306DE0071A59C /* Highway_To_Hell_Chorus.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Highway_To_Hell_Chorus.wav; sourceTree = "<group>"; };
+		29E47FF41AE310450071A59C /* Dont_Let_The_Sun_Go_Down_Intro.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Dont_Let_The_Sun_Go_Down_Intro.wav; sourceTree = "<group>"; };
+		29E47FF51AE310450071A59C /* Goodbye_YellowBrickRoad.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Goodbye_YellowBrickRoad.wav; sourceTree = "<group>"; };
+		29E47FF81AE45C600071A59C /* Allright_Now_Gtr_Chorus.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Allright_Now_Gtr_Chorus.wav; sourceTree = "<group>"; };
+		29E47FFA1AE45C730071A59C /* Back_In_The_Ussr_Intro.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Back_In_The_Ussr_Intro.wav; sourceTree = "<group>"; };
+		29E47FFC1AE45C850071A59C /* Day_Tripper_GTR_Intro.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Day_Tripper_GTR_Intro.wav; sourceTree = "<group>"; };
+		29E47FFE1AE45C8F0071A59C /* House_of_the_rising_sun.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = House_of_the_rising_sun.wav; sourceTree = "<group>"; };
+		29E480001AE45C9F0071A59C /* John_Lenon_Imagine.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = John_Lenon_Imagine.wav; sourceTree = "<group>"; };
+		29E480021AE45CAE0071A59C /* Knock_Me_Off_My_Feet.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Knock_Me_Off_My_Feet.wav; sourceTree = "<group>"; };
+		29E480031AE45CAE0071A59C /* Wonderwall_Acoustic_Intro.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Wonderwall_Acoustic_Intro.wav; sourceTree = "<group>"; };
+		4241BE7F8A24C6DAD64FBE3D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		B50B16C0AC037CFEDB1CF132 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9645E9701EC7D0556D443357 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +141,8 @@
 				29153CC71A7D75A200E03D07 /* NakedTracksViewController.h */,
 				29153CCC1A7D847E00E03D07 /* Song.h */,
 				29153CCD1A7D847E00E03D07 /* Song.m */,
+				29E47FE71AD5E7330071A59C /* Answer.h */,
+				29E47FE81AD5E7330071A59C /* Answer.m */,
 				29153CC81A7D75A200E03D07 /* NakedTracksViewController.m */,
 				292D2F371A916679003C1C7C /* NakedTracksMainView.h */,
 				292D2F381A916679003C1C7C /* NakedTracksMainView.m */,
@@ -113,19 +151,12 @@
 				29153CBA1A7D74CF00E03D07 /* NakedTracksTests */,
 				29153C9F1A7D74CF00E03D07 /* Products */,
 				29153CCF1A7D877A00E03D07 /* songlist.json */,
-				29F9D9F41A81C43A00FB9D13 /* fly_by_night_gtr.wav */,
-				29B675321A867728001F7B6F /* i_can_see_for_miles.wav */,
-				29B675361A8C1FA5001F7B6F /* come_together_bass_intro.wav */,
-				29B675381A8C1FB8001F7B6F /* 2112.wav */,
-				29B6753A1A8C1FC4001F7B6F /* kansas.wav */,
-				29B6753C1A8C1FCE001F7B6F /* lady_madonna_bridge_bass.wav */,
-				29B6753E1A8C1FD7001F7B6F /* lonely_is_the_night.wav */,
-				29B675401A8C1FE3001F7B6F /* stranglehold.wav */,
-				29B675421A8C1FEC001F7B6F /* want_you_to_want_me.wav */,
-				29B675441A8C1FF4001F7B6F /* while_my_guitar_gently_weeps.wav */,
-				292D2F351A91628D003C1C7C /* Console.jpg */,
+				29CE6EEE1AC22B69003353E0 /* answerlist.json */,
 				292D2F3A1A91789A003C1C7C /* mixer.png */,
 				29B60D271A9C12F700A64B77 /* Knewave-Regular.ttf */,
+				29BB0AD71AB4D3F70056674D /* Test_Console.gif */,
+				B58568C2D83CDA89188A511B /* Pods */,
+				3846E6EE03C61256A5CFF9E3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -142,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				29153CA51A7D74CF00E03D07 /* AppDelegate.h */,
+				2937E9EA1AABBFC0003D9245 /* Audio Files */,
 				29153CA61A7D74CF00E03D07 /* AppDelegate.m */,
 				29153CA81A7D74CF00E03D07 /* ViewController.h */,
 				29153CA91A7D74CF00E03D07 /* ViewController.m */,
@@ -179,6 +211,54 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		2937E9EA1AABBFC0003D9245 /* Audio Files */ = {
+			isa = PBXGroup;
+			children = (
+				29E47FF81AE45C600071A59C /* Allright_Now_Gtr_Chorus.wav */,
+				29E47FF41AE310450071A59C /* Dont_Let_The_Sun_Go_Down_Intro.wav */,
+				29E47FFC1AE45C850071A59C /* Day_Tripper_GTR_Intro.wav */,
+				29E480021AE45CAE0071A59C /* Knock_Me_Off_My_Feet.wav */,
+				29E480031AE45CAE0071A59C /* Wonderwall_Acoustic_Intro.wav */,
+				29E47FF51AE310450071A59C /* Goodbye_YellowBrickRoad.wav */,
+				29E47FFA1AE45C730071A59C /* Back_In_The_Ussr_Intro.wav */,
+				29E47FFE1AE45C8F0071A59C /* House_of_the_rising_sun.wav */,
+				29E47FF01AE306DE0071A59C /* Captain_Jack.wav */,
+				29E47FF11AE306DE0071A59C /* Highway_To_Hell_Chorus.wav */,
+				29E47FEA1AE300FE0071A59C /* And_So_It_Goes.wav */,
+				29BB0AC11AB451080056674D /* Carry_On_Wayward_Son.wav */,
+				29E480001AE45C9F0071A59C /* John_Lenon_Imagine.wav */,
+				29BB0AC31AB451680056674D /* Come_Together_Verse.wav */,
+				29BB0ACF1AB454770056674D /* I_Can_See_For_Miles.wav */,
+				29BB0ABF1AB450B40056674D /* 2112.wav */,
+				29BB0AD51AB458560056674D /* Lady_Madonna_Intro_Verse.wav */,
+				29BB0AC71AB4520C0056674D /* Lady_Madonna_Bridge.wav */,
+				29BB0AD11AB4551A0056674D /* Red_Barchetta_BASS_Intro.wav */,
+				29BB0ACB1AB4537E0056674D /* Lonely_Is_The_Night_Intro.wav */,
+				29BB0AC51AB451A70056674D /* Fly_By_Night_GTR_Chorus.wav */,
+				29BB0ACD1AB453F30056674D /* Stranglehold.wav */,
+				29B675421A8C1FEC001F7B6F /* want_you_to_want_me.wav */,
+			);
+			name = "Audio Files";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		3846E6EE03C61256A5CFF9E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B50B16C0AC037CFEDB1CF132 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B58568C2D83CDA89188A511B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26F0BAAA14E52ECBBA02AE3F /* Pods.debug.xcconfig */,
+				4241BE7F8A24C6DAD64FBE3D /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -186,9 +266,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 29153CC11A7D74CF00E03D07 /* Build configuration list for PBXNativeTarget "NakedTracks" */;
 			buildPhases = (
+				43D2F5A9AF67ACCF1D0AAD24 /* Check Pods Manifest.lock */,
 				29153C9A1A7D74CF00E03D07 /* Sources */,
 				29153C9B1A7D74CF00E03D07 /* Frameworks */,
 				29153C9C1A7D74CF00E03D07 /* Resources */,
+				DFE3776A29E828F5E5D26970 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -261,24 +343,38 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29E47FF21AE306DE0071A59C /* Captain_Jack.wav in Resources */,
 				29B60D281A9C140E00A64B77 /* Knewave-Regular.ttf in Resources */,
-				29B675371A8C1FA5001F7B6F /* come_together_bass_intro.wav in Resources */,
+				29E47FED1AE300FE0071A59C /* And_So_It_Goes.wav in Resources */,
+				29BB0ACE1AB453F30056674D /* Stranglehold.wav in Resources */,
 				29B675431A8C1FEC001F7B6F /* want_you_to_want_me.wav in Resources */,
-				29B6753B1A8C1FC4001F7B6F /* kansas.wav in Resources */,
-				29B6753F1A8C1FD7001F7B6F /* lonely_is_the_night.wav in Resources */,
-				29F9D9F51A81C43A00FB9D13 /* fly_by_night_gtr.wav in Resources */,
+				29E480011AE45C9F0071A59C /* John_Lenon_Imagine.wav in Resources */,
+				29E47FFB1AE45C730071A59C /* Back_In_The_Ussr_Intro.wav in Resources */,
+				29BB0AC01AB450B40056674D /* 2112.wav in Resources */,
 				29153CCB1A7D75A200E03D07 /* NakedTracksViewController.xib in Resources */,
+				29E47FF61AE310450071A59C /* Dont_Let_The_Sun_Go_Down_Intro.wav in Resources */,
+				29E47FF91AE45C600071A59C /* Allright_Now_Gtr_Chorus.wav in Resources */,
+				29BB0AC21AB451080056674D /* Carry_On_Wayward_Son.wav in Resources */,
 				29153CAD1A7D74CF00E03D07 /* Main.storyboard in Resources */,
-				29B675411A8C1FE3001F7B6F /* stranglehold.wav in Resources */,
-				29B675391A8C1FB8001F7B6F /* 2112.wav in Resources */,
+				29E480041AE45CAE0071A59C /* Knock_Me_Off_My_Feet.wav in Resources */,
+				29CE6EEF1AC22B69003353E0 /* answerlist.json in Resources */,
 				29153CB21A7D74CF00E03D07 /* LaunchScreen.xib in Resources */,
-				29B675451A8C1FF4001F7B6F /* while_my_guitar_gently_weeps.wav in Resources */,
+				29BB0AC81AB4520C0056674D /* Lady_Madonna_Bridge.wav in Resources */,
+				29BB0AC61AB451A70056674D /* Fly_By_Night_GTR_Chorus.wav in Resources */,
 				29153CD01A7D877A00E03D07 /* songlist.json in Resources */,
-				29B675331A867728001F7B6F /* i_can_see_for_miles.wav in Resources */,
-				292D2F361A91628D003C1C7C /* Console.jpg in Resources */,
+				29BB0AC41AB451680056674D /* Come_Together_Verse.wav in Resources */,
+				29E47FF31AE306DE0071A59C /* Highway_To_Hell_Chorus.wav in Resources */,
+				29E47FFF1AE45C8F0071A59C /* House_of_the_rising_sun.wav in Resources */,
+				29E47FFD1AE45C850071A59C /* Day_Tripper_GTR_Intro.wav in Resources */,
+				29BB0ACC1AB4537E0056674D /* Lonely_Is_The_Night_Intro.wav in Resources */,
 				29153CAF1A7D74CF00E03D07 /* Images.xcassets in Resources */,
-				29B6753D1A8C1FCE001F7B6F /* lady_madonna_bridge_bass.wav in Resources */,
+				29BB0AD01AB454770056674D /* I_Can_See_For_Miles.wav in Resources */,
+				29E47FF71AE310450071A59C /* Goodbye_YellowBrickRoad.wav in Resources */,
 				292D2F3B1A91789A003C1C7C /* mixer.png in Resources */,
+				29BB0AD81AB4D3F70056674D /* Test_Console.gif in Resources */,
+				29E480051AE45CAE0071A59C /* Wonderwall_Acoustic_Intro.wav in Resources */,
+				29BB0AD61AB458560056674D /* Lady_Madonna_Intro_Verse.wav in Resources */,
+				29BB0AD21AB4551A0056674D /* Red_Barchetta_BASS_Intro.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,12 +387,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		43D2F5A9AF67ACCF1D0AAD24 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DFE3776A29E828F5E5D26970 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		29153C9A1A7D74CF00E03D07 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				29153CCE1A7D847E00E03D07 /* Song.m in Sources */,
+				29E47FE91AD5E7330071A59C /* Answer.m in Sources */,
 				29153CCA1A7D75A200E03D07 /* NakedTracksViewController.m in Sources */,
 				29153CAA1A7D74CF00E03D07 /* ViewController.m in Sources */,
 				292D2F391A916679003C1C7C /* NakedTracksMainView.m in Sources */,
@@ -421,6 +551,7 @@
 		};
 		29153CC21A7D74CF00E03D07 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26F0BAAA14E52ECBBA02AE3F /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NakedTracks/Info.plist;
@@ -431,6 +562,7 @@
 		};
 		29153CC31A7D74CF00E03D07 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4241BE7F8A24C6DAD64FBE3D /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NakedTracks/Info.plist;
