@@ -45,8 +45,10 @@ double trackLength;
 double origTrackLength;
 
 int downLoadSongCount;
+int globalSongPointer;
 
 NSMutableArray *songList;
+NSMutableArray *randomizedSongList;  // Will hold the randomized songs
 NSMutableArray *answerList;
 NSMutableArray *selectedSongs;
 NSMutableArray *selectedAnswers;
@@ -86,7 +88,12 @@ UIButton *answerBtn5;
          [self initializeAnswerList];
           
          Song *firstSong = [[Song alloc]init];
-         firstSong = [self getNextSong];
+         
+          // OLD UNRANDOMIZED CALL TO GET THE NEXT SONG
+          //firstSong = [self getNextSong];
+          
+         // New Call to get the first song
+         firstSong = [randomizedSongList objectAtIndex:globalSongPointer];
           
           //*** Call this method to Download A Song
           [self downLoadSong:firstSong];
@@ -119,6 +126,7 @@ UIButton *answerBtn5;
     Song *mySong = [[Song alloc]init];
     songList = [mySong getSongs];
     selectedSongs = [[NSMutableArray alloc]init];
+    [self randomizeSongList];
 }
 
 - (void) initializeAnswerList
@@ -129,9 +137,42 @@ UIButton *answerBtn5;
     
 }
 
+- (void) randomizeSongList
+{
+    randomizedSongList = [[NSMutableArray alloc]init];
+    
+    while ( [songList count] != [selectedSongs count] )
+    {
+    
+      NSInteger songPointer = arc4random() % [songList count];
+    
+      while ([selectedSongs containsObject:[NSNumber numberWithInteger: songPointer]])
+      {
+        songPointer = arc4random() % [songList count];
+      }
+    
+    
+    [selectedSongs addObject:[NSNumber numberWithInteger: songPointer]];
+    
+    Song *currentSong = [[Song alloc]init];
+    songCount++;
+    currentSong = [songList objectAtIndex:songPointer];
+    
+    [randomizedSongList addObject:currentSong];
+    
+    } // End While
+    
+    // Set Global Song Pointer to 0
+    
+    globalSongPointer = 0;
+
+}
+
 
 - (Song *)getNextSong
 {
+    // Previous getNextSong code before Randomized on the the INIT
+    /*
     NSInteger songPointer = arc4random() % [songList count];
     
     if([songList count] == [selectedSongs count])
@@ -153,7 +194,15 @@ UIButton *answerBtn5;
     currentSong = [songList objectAtIndex:songPointer];
     
     return currentSong;
+     
+     */
+    
+    globalSongPointer++;
+    Song *currentSong = [[Song alloc]init];
+    currentSong = [randomizedSongList objectAtIndex:globalSongPointer];
+    
 
+    return currentSong;
 }
 
 - (NSString *)getRandomAnswer:(NSString*)featuredInstrumentIn
@@ -676,11 +725,11 @@ UIButton *answerBtn5;
     NSString *tmpSongName;
     NSUInteger totalSongs;
     
-    totalSongs = [songList count];
+    totalSongs = [randomizedSongList count];
    
     __block NSInteger intSongCount = 0;
     
-    for(Song *mySong in songList)
+    for(Song *mySong in randomizedSongList)
     {
         tmpSongName = mySong.fileLocation;
         
