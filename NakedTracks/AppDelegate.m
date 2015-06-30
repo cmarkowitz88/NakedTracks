@@ -26,6 +26,7 @@ AVAudioPlayer *avSound;
     NakedTracksViewController *nakedVC = [[NakedTracksViewController alloc]init];
     self.window.rootViewController = nakedVC;
     
+   /*
     AWSCognitoCredentialsProvider *credentialsProvider = [[AWSCognitoCredentialsProvider alloc]initWithRegionType:AWSRegionUSEast1 identityPoolId:@"us-east-1:896a2892-7e49-4a1f-b8d8-254b57b457bd"];
     
     AWSServiceConfiguration *configuration  = [[AWSServiceConfiguration alloc]initWithRegion:AWSRegionUSEast1 credentialsProvider:credentialsProvider];
@@ -63,7 +64,7 @@ AVAudioPlayer *avSound;
     [avSound prepareToPlay];
     [avSound play];
     
-    
+    */
     
     
     //CGRect firstFrame = self.window.bounds;

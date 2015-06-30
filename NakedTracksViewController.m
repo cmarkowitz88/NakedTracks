@@ -12,6 +12,8 @@
 #import <AWSCORE/Awscore.h>
 #import "Song.h"
 #import "Answer.h"
+#import <AWSCORE/awscore.h>
+#import <AWSS3/AWSS3.h>
 @import UIKit;
 
 @interface NakedTracksViewController ()
@@ -24,6 +26,7 @@
 @property (nonatomic, weak) IBOutlet UILabel *scoreLabel;
 @property (nonatomic, weak) IBOutlet UILabel *countdownLabel;
 @property (nonatomic, weak) IBOutlet UILabel *countOffLabel;
+@property (nonatomic, weak) IBOutlet UILabel *songDownloadLabel;
 
 @end
 
@@ -40,6 +43,8 @@ int countOff;
 int correctlyAnswered;
 double trackLength;
 double origTrackLength;
+
+int downLoadSongCount;
 
 NSMutableArray *songList;
 NSMutableArray *answerList;
@@ -74,25 +79,40 @@ UIButton *answerBtn5;
 {
       // Call the init method implemented by the SuperClass
       self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-      //[self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"mixer.png"]]];
-    
     
       if(self)
       {
          [self initializeSongList];
          [self initializeAnswerList];
-         
+          
          Song *firstSong = [[Song alloc]init];
          firstSong = [self getNextSong];
+          
+          //*** Call this method to Download A Song
+          [self downLoadSong:firstSong];
+          //***
+          
+         //*** Call this method to Downlaod ALL Songs
+         [self downLoadSongs];
+         //***
+         
+         
          [self displaySong:firstSong];
           
-         countOff = 3;
+         countOff = 4;
          [self countOffTimer];
          
       }
     
+    //while(downLoadSongCount != 5)
+    //{
+        [NSThread sleepForTimeInterval:10];
+      //  NSLog(@"%i", downLoadSongCount);
+    //}
+    
     return self;
-}
+    
+    }
 
 - (void)initializeSongList
 {
@@ -386,10 +406,8 @@ UIButton *answerBtn5;
     [playSong setBackgroundColor:[UIColor grayColor]];
     [playSong setTitle:@"Rolling..." forState:UIControlStateNormal];
 
-    
-    
-    
 }
+
 
 - (void) startSong
 {
@@ -399,12 +417,59 @@ UIButton *answerBtn5;
     answerBtn4.hidden = FALSE;
     answerBtn5.hidden = FALSE;
     
+    NSString *tmpFileName = [fileName stringByAppendingString:@".wav"];
+    
+    
+    /*
+    AWSCognitoCredentialsProvider *credentialsProvider = [[AWSCognitoCredentialsProvider alloc]initWithRegionType:AWSRegionUSEast1 identityPoolId:@"us-east-1:896a2892-7e49-4a1f-b8d8-254b57b457bd"];
+    
+    AWSServiceConfiguration *configuration  = [[AWSServiceConfiguration alloc]initWithRegion:AWSRegionUSEast1 credentialsProvider:credentialsProvider];
+    
+    AWSServiceManager.defaultServiceManager.defaultServiceConfiguration = configuration;
+     */
+    
+    NSString *downloadingFilePath = [NSTemporaryDirectory() stringByAppendingPathComponent:tmpFileName];
+    //NSURL *downloadingFileUrl = [NSURL fileURLWithPath:downloadingFilePath];
+    
+    /*
+    AWSS3TransferManagerDownloadRequest *downloadRequest = [AWSS3TransferManagerDownloadRequest new];
+    downloadRequest.bucket = @"nakedtracks.audio";
+    downloadRequest.key = tmpFileName;
+    downloadRequest.downloadingFileURL = downloadingFileUrl;
+    
+    AWSS3TransferManager *transferManager = [AWSS3TransferManager defaultS3TransferManager];
+    NSLog(@"Download started, please wait...");
+    
+    [[transferManager download:downloadRequest] continueWithExecutor:[BFExecutor mainThreadExecutor]
+                                                           withBlock:^id(BFTask *task){
+                                                               NSString *tst;
+                                                               if (task.error != nil) {
+                                                                   NSLog(@"%s %@","Error downloading :", downloadRequest.key);
+                                                                   tst = @"false";
+                                                               }
+                                                               else {
+                                                                   NSLog(@"download completed");
+                                                                   tst = @"true";
+                                                                   
+                                                               }
+                                                               return nil;
+                                                           }];
+    
+    */
     AVAudioSession *session = [AVAudioSession sharedInstance];
     [session setCategory:AVAudioSessionCategoryPlayback error:nil];
-    NSURL *soundUrl = [[NSBundle mainBundle]URLForResource:fileName withExtension:@"wav"];
+    NSURL *soundUrl = [NSURL fileURLWithPath:downloadingFilePath ];
     avSound = [[AVAudioPlayer alloc]initWithContentsOfURL:soundUrl error:nil];
     [avSound prepareToPlay];
     [avSound play];
+
+    
+    //AVAudioSession *session = [AVAudioSession sharedInstance];
+    //[session setCategory:AVAudioSessionCategoryPlayback error:nil];
+    //NSURL *soundUrl = [[NSBundle mainBundle]URLForResource:fileName withExtension:@"wav"];
+    //avSound = [[AVAudioPlayer alloc]initWithContentsOfURL:soundUrl error:nil];
+    //[avSound prepareToPlay];
+    //[avSound play];
     
     // Start the Clock
     start = [NSDate date];
@@ -496,10 +561,12 @@ UIButton *answerBtn5;
 {
     Song *nextSong = [[Song alloc]init];
     nextSong = [self getNextSong];
+    [self downLoadSong:nextSong];
     [self displaySong:nextSong];
-    countOff = 2;
-    [self startSong];
+    countOff = 4;
     //[self countOffTimer];
+    [self startSong];
+    
 }
 
 
@@ -598,5 +665,122 @@ UIButton *answerBtn5;
         [self queueNextSong];
     }
 }
+
+- (void) downLoadSongs
+{
+    // Interate through the songList MutableArray and GET ALL the song titles to download
+    
+    // Start dispatch to run on different thread
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        
+    NSString *tmpSongName;
+    NSUInteger totalSongs;
+    
+    totalSongs = [songList count];
+   
+    __block NSInteger intSongCount = 0;
+    
+    for(Song *mySong in songList)
+    {
+        tmpSongName = mySong.fileLocation;
+        
+        NSString *tmpFileName = [tmpSongName stringByAppendingString:@".wav"];
+        
+        
+        AWSCognitoCredentialsProvider *credentialsProvider = [[AWSCognitoCredentialsProvider alloc]initWithRegionType:AWSRegionUSEast1 identityPoolId:@"us-east-1:896a2892-7e49-4a1f-b8d8-254b57b457bd"];
+        
+        AWSServiceConfiguration *configuration  = [[AWSServiceConfiguration alloc]initWithRegion:AWSRegionUSEast1 credentialsProvider:credentialsProvider];
+        
+        AWSServiceManager.defaultServiceManager.defaultServiceConfiguration = configuration;
+        
+        NSString *downloadingFilePath = [NSTemporaryDirectory() stringByAppendingPathComponent:tmpFileName];
+        NSURL *downloadingFileUrl = [NSURL fileURLWithPath:downloadingFilePath];
+        
+        AWSS3TransferManagerDownloadRequest *downloadRequest = [AWSS3TransferManagerDownloadRequest new];
+        downloadRequest.bucket = @"nakedtracks.audio";
+        downloadRequest.key = tmpFileName;
+        downloadRequest.downloadingFileURL = downloadingFileUrl;
+        
+        AWSS3TransferManager *transferManager = [AWSS3TransferManager defaultS3TransferManager];
+        NSLog(@"Download started, please wait...");
+        
+        
+        [[transferManager download:downloadRequest] continueWithExecutor:[BFExecutor mainThreadExecutor]
+                                                               withBlock:^id(BFTask *task){
+                                                                   NSString *tst;
+                                                                   if (task.error != nil) {
+                                                                       NSLog(@"%s %@","Error downloading :", downloadRequest.key);
+                                                                       tst = @"false";
+                                                                   }
+                                                                   else {
+                                                                       NSLog(@"download completed");
+                                                                       intSongCount++;
+                                                                       downLoadSongCount = intSongCount;
+                                                                       NSString *count =[NSString stringWithFormat:@"%d", (int)downLoadSongCount];
+                                                                       self.songDownloadLabel.text = count;
+                                                                       tst = @"true";
+                                                                       
+                                                                      
+                                                                   }
+                                                                   return nil;
+                                                               }];
+        
+        
+      } // End For Loop
+         
+    }); // End Dispatch
+}
+
+- (void) downLoadSong:(Song*)inSong
+{
+    // Go retrieve the current song
+    
+    NSString *tmpSongName;
+    
+    tmpSongName = inSong.fileLocation;
+        
+        NSString *tmpFileName = [tmpSongName stringByAppendingString:@".wav"];
+        
+        
+        AWSCognitoCredentialsProvider *credentialsProvider = [[AWSCognitoCredentialsProvider alloc]initWithRegionType:AWSRegionUSEast1 identityPoolId:@"us-east-1:896a2892-7e49-4a1f-b8d8-254b57b457bd"];
+        
+        AWSServiceConfiguration *configuration  = [[AWSServiceConfiguration alloc]initWithRegion:AWSRegionUSEast1 credentialsProvider:credentialsProvider];
+        
+        AWSServiceManager.defaultServiceManager.defaultServiceConfiguration = configuration;
+        
+        NSString *downloadingFilePath = [NSTemporaryDirectory() stringByAppendingPathComponent:tmpFileName];
+        NSURL *downloadingFileUrl = [NSURL fileURLWithPath:downloadingFilePath];
+        
+        AWSS3TransferManagerDownloadRequest *downloadRequest = [AWSS3TransferManagerDownloadRequest new];
+        downloadRequest.bucket = @"nakedtracks.audio";
+        downloadRequest.key = tmpFileName;
+        downloadRequest.downloadingFileURL = downloadingFileUrl;
+        
+        AWSS3TransferManager *transferManager = [AWSS3TransferManager defaultS3TransferManager];
+        NSLog(@"Download started, please wait...");
+        
+        [[transferManager download:downloadRequest] continueWithExecutor:[BFExecutor mainThreadExecutor]
+                                                               withBlock:^id(BFTask *task){
+                                                                   NSString *tst;
+                                                                   if (task.error != nil) {
+                                                                       NSLog(@"%s %@","Error downloading :", downloadRequest.key);
+                                                                       tst = @"false";
+                                                                   }
+                                                                   else {
+                                                                       NSLog(@"download completed");
+                                                                       tst = @"true";
+                                                                       
+                                                                       
+                                                                   }
+                                                                   return nil;
+                                                               }];
+        
+        
+    
+    
+    
+} // End Method
+
+
 
 @end
