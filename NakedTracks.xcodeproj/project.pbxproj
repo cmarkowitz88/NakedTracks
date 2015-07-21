@@ -20,6 +20,7 @@
 		29153CD01A7D877A00E03D07 /* songlist.json in Resources */ = {isa = PBXBuildFile; fileRef = 29153CCF1A7D877A00E03D07 /* songlist.json */; };
 		292D2F391A916679003C1C7C /* NakedTracksMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 292D2F381A916679003C1C7C /* NakedTracksMainView.m */; };
 		292D2F3B1A91789A003C1C7C /* mixer.png in Resources */ = {isa = PBXBuildFile; fileRef = 292D2F3A1A91789A003C1C7C /* mixer.png */; };
+		299F60961B46DE1100BD1F60 /* Wrong-answer-sound-effect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 299F60951B46DE1100BD1F60 /* Wrong-answer-sound-effect.mp3 */; };
 		29B60D281A9C140E00A64B77 /* Knewave-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 29B60D271A9C12F700A64B77 /* Knewave-Regular.ttf */; };
 		29B675431A8C1FEC001F7B6F /* want_you_to_want_me.wav in Resources */ = {isa = PBXBuildFile; fileRef = 29B675421A8C1FEC001F7B6F /* want_you_to_want_me.wav */; };
 		29BB0AC01AB450B40056674D /* 2112.wav in Resources */ = {isa = PBXBuildFile; fileRef = 29BB0ABF1AB450B40056674D /* 2112.wav */; };
@@ -84,6 +85,7 @@
 		292D2F371A916679003C1C7C /* NakedTracksMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NakedTracksMainView.h; sourceTree = "<group>"; };
 		292D2F381A916679003C1C7C /* NakedTracksMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NakedTracksMainView.m; sourceTree = "<group>"; };
 		292D2F3A1A91789A003C1C7C /* mixer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mixer.png; sourceTree = "<group>"; };
+		299F60951B46DE1100BD1F60 /* Wrong-answer-sound-effect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Wrong-answer-sound-effect.mp3"; sourceTree = "<group>"; };
 		29B60D271A9C12F700A64B77 /* Knewave-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Knewave-Regular.ttf"; sourceTree = "<group>"; };
 		29B675421A8C1FEC001F7B6F /* want_you_to_want_me.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = want_you_to_want_me.wav; sourceTree = "<group>"; };
 		29BB0ABF1AB450B40056674D /* 2112.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 2112.wav; sourceTree = "<group>"; };
@@ -216,6 +218,7 @@
 			children = (
 				29E47FF81AE45C600071A59C /* Allright_Now_Gtr_Chorus.wav */,
 				29E47FF41AE310450071A59C /* Dont_Let_The_Sun_Go_Down_Intro.wav */,
+				299F60951B46DE1100BD1F60 /* Wrong-answer-sound-effect.mp3 */,
 				29E47FFC1AE45C850071A59C /* Day_Tripper_GTR_Intro.wav */,
 				29E480021AE45CAE0071A59C /* Knock_Me_Off_My_Feet.wav */,
 				29E480031AE45CAE0071A59C /* Wonderwall_Acoustic_Intro.wav */,
@@ -357,6 +360,7 @@
 				29BB0AC21AB451080056674D /* Carry_On_Wayward_Son.wav in Resources */,
 				29153CAD1A7D74CF00E03D07 /* Main.storyboard in Resources */,
 				29E480041AE45CAE0071A59C /* Knock_Me_Off_My_Feet.wav in Resources */,
+				299F60961B46DE1100BD1F60 /* Wrong-answer-sound-effect.mp3 in Resources */,
 				29CE6EEF1AC22B69003353E0 /* answerlist.json in Resources */,
 				29153CB21A7D74CF00E03D07 /* LaunchScreen.xib in Resources */,
 				29BB0AC81AB4520C0056674D /* Lady_Madonna_Bridge.wav in Resources */,
