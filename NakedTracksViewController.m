@@ -60,6 +60,8 @@ UIButton *answerBtn3;
 UIButton *answerBtn4;
 UIButton *answerBtn5;
 
+// Fuck THis.
+
 
 -(void)viewDidLoad
 {
@@ -70,7 +72,7 @@ UIButton *answerBtn5;
 -(void)loadView
 {
     Create View
-    CGRect frame = [UIScreen mainScreen].bounds;
+    CGR/Users/alyssa/Downloads/Wrong-answer-sound-effect/Wrong-answer-sound-effect.mp3ect frame = [UIScreen mainScreen].bounds;
     NakedTracksMainView *backgroundView = [[NakedTracksMainView alloc] initWithFrame:frame];
     self.view = backgroundView;
     
@@ -544,6 +546,14 @@ UIButton *answerBtn5;
 {
     [avSound stop];
     
+    // Pepare the wrong answer sound affect so it's ready to go
+    NSString *wrongAnswerSound = @"Wrong-answer-sound-effect";
+    AVAudioSession *session = [AVAudioSession sharedInstance];
+    [session setCategory:AVAudioSessionCategoryPlayback error:nil];
+    NSURL *soundUrl = [[NSBundle mainBundle]URLForResource:wrongAnswerSound withExtension:@"mp3"];
+    avSound = [[AVAudioPlayer alloc]initWithContentsOfURL:soundUrl error:nil];
+    [avSound prepareToPlay];
+    
     if(timer)
     {
         [timer invalidate];
@@ -575,7 +585,7 @@ UIButton *answerBtn5;
         correctlyAnswered = 1;
         double tmpInterval = timeInterval;
         double tmp = (tmpInterval / origTrackLength) * 100;
-        score += 100 - tmp;
+        score += 1000 - tmp;
         self.scoreLabel.text = [NSString stringWithFormat:@"Score:%i", score];
         self.answerLabel.text = @"Correct!";
         [(UIButton *)sender setBackgroundColor:[UIColor colorWithRed:0 green:0.6 blue:0 alpha:1]];
@@ -583,13 +593,19 @@ UIButton *answerBtn5;
     }
     else
     {
+        
+        [avSound play];
         correctlyAnswered = 0;
         self.answerLabel.text = @"Sorry, wrong answer";
         [(UIButton *)sender setBackgroundColor:[UIColor redColor]];
     }
     
+     
+    // UNComment Here to have alert display after each response.
     [self showAlert];
     
+    // UNComment Here to not show alert
+    //[self queueNextSong];
 
     playSong.enabled = NO;
     answerBtn1.enabled = NO;
@@ -610,9 +626,9 @@ UIButton *answerBtn5;
 {
     Song *nextSong = [[Song alloc]init];
     nextSong = [self getNextSong];
-    [self downLoadSong:nextSong];
+    
     [self displaySong:nextSong];
-    countOff = 4;
+    //countOff = 2;
     //[self countOffTimer];
     [self startSong];
     
