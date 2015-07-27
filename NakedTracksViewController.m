@@ -60,7 +60,6 @@ UIButton *answerBtn3;
 UIButton *answerBtn4;
 UIButton *answerBtn5;
 
-// Fuck THis.
 
 
 -(void)viewDidLoad
