@@ -601,17 +601,17 @@ UIButton *answerBtn5;
     
      
     // UNComment Here to have alert display after each response.
-    [self showAlert];
+    //[self showAlert];
     
     // UNComment Here to not show alert
-    //[self queueNextSong];
+    [self queueNextSong];
 
-    playSong.enabled = NO;
-    answerBtn1.enabled = NO;
-    answerBtn2.enabled = NO;
-    answerBtn3.enabled = NO;
-    answerBtn4.enabled = NO;
-    answerBtn5.enabled = NO;
+    //playSong.enabled = NO;
+    //answerBtn1.enabled = NO;
+    //answerBtn2.enabled = NO;
+    //answerBtn3.enabled = NO;
+    //answerBtn4.enabled = NO;
+    //answerBtn5.enabled = NO;
 
     
     //Song *nextSong = [[Song alloc]init];
@@ -625,11 +625,11 @@ UIButton *answerBtn5;
 {
     Song *nextSong = [[Song alloc]init];
     nextSong = [self getNextSong];
-    
     [self displaySong:nextSong];
-    //countOff = 2;
-    //[self countOffTimer];
-    [self startSong];
+    
+    countOff = 2;
+    [self countOffTimer];
+   
     
 }
 
