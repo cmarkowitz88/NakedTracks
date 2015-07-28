@@ -60,6 +60,8 @@ UIButton *answerBtn3;
 UIButton *answerBtn4;
 UIButton *answerBtn5;
 
+bool clickedAnswerButton;
+
 
 
 -(void)viewDidLoad
@@ -97,11 +99,11 @@ UIButton *answerBtn5;
          firstSong = [randomizedSongList objectAtIndex:globalSongPointer];
           
           //*** Call this method to Download A Song
-          [self downLoadSong:firstSong];
+          //[self downLoadSong:firstSong];
           //***
           
          //*** Call this method to Downlaod ALL Songs
-         [self downLoadSongs];
+         //[self downLoadSongs];
          //***
          
          
@@ -114,7 +116,7 @@ UIButton *answerBtn5;
     
     //while(downLoadSongCount != 5)
     //{
-        [NSThread sleepForTimeInterval:10];
+        //[NSThread sleepForTimeInterval:10];
       //  NSLog(@"%i", downLoadSongCount);
     //}
     
@@ -545,6 +547,13 @@ UIButton *answerBtn5;
 {
     [avSound stop];
     
+    // Check to make sure we haven't clicked the button multiple times
+    // First time in this will be false and we will execute, if it was already clicked we will ignore it.
+    
+    if(clickedAnswerButton == false)
+    {
+    clickedAnswerButton = true;
+    
     // Pepare the wrong answer sound affect so it's ready to go
     NSString *wrongAnswerSound = @"Wrong-answer-sound-effect";
     AVAudioSession *session = [AVAudioSession sharedInstance];
@@ -566,11 +575,11 @@ UIButton *answerBtn5;
     NSString *length =[NSString stringWithFormat:@"%d", (int)timeInterval];
     if ((int)timeInterval <= 9)
     {
-       self.questionLabel.text = [NSString stringWithFormat:@"Your Time: 0:0%@", length];
+       self.answerLabel.text = [NSString stringWithFormat:@"Your Time: 0:0%@", length];
     }
     else
     {
-    self.questionLabel.text = [NSString stringWithFormat:@"Your Time: 0:%@", length];
+    self.answerLabel.text = [NSString stringWithFormat:@"Your Time: 0:%@", length];
     }
     
     if (![sender isKindOfClass:[UIButton class]])
@@ -586,7 +595,7 @@ UIButton *answerBtn5;
         double tmp = (tmpInterval / origTrackLength) * 100;
         score += 1000 - tmp;
         self.scoreLabel.text = [NSString stringWithFormat:@"Score:%i", score];
-        self.answerLabel.text = @"Correct!";
+        self.questionLabel.text = @"Status: Correct!";
         [(UIButton *)sender setBackgroundColor:[UIColor colorWithRed:0 green:0.6 blue:0 alpha:1]];
         
     }
@@ -595,7 +604,7 @@ UIButton *answerBtn5;
         
         [avSound play];
         correctlyAnswered = 0;
-        self.answerLabel.text = @"Sorry, wrong answer";
+        self.questionLabel.text = @"Status: Sorry, wrong answer";
         [(UIButton *)sender setBackgroundColor:[UIColor redColor]];
     }
     
@@ -606,19 +615,8 @@ UIButton *answerBtn5;
     // UNComment Here to not show alert
     [self queueNextSong];
 
-    //playSong.enabled = NO;
-    //answerBtn1.enabled = NO;
-    //answerBtn2.enabled = NO;
-    //answerBtn3.enabled = NO;
-    //answerBtn4.enabled = NO;
-    //answerBtn5.enabled = NO;
-
-    
-    //Song *nextSong = [[Song alloc]init];
-    //nextSong = [self getNextSong];
-    //[self displaySong:nextSong];
-    //countOff = 2;
-    //[self countOffTimer];
+     
+    }
 }
 
 - (void)queueNextSong
@@ -629,7 +627,7 @@ UIButton *answerBtn5;
     
     countOff = 2;
     [self countOffTimer];
-   
+    
     
 }
 
@@ -688,6 +686,10 @@ UIButton *answerBtn5;
             
         }
     
+        self.questionLabel.text = @"Status:";
+        self.answerLabel.text = @"Your Time:";
+
+        clickedAnswerButton = false;
         [self startSong];
     }
     
