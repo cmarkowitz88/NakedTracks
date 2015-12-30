@@ -9,7 +9,12 @@
 #import <Foundation/Foundation.h>
 #import "AVFoundation/AVFoundation.h"
 
-@interface Song : NSObject
+@interface Song : NSObject<NSURLConnectionDelegate>
+
+{
+    NSMutableData *_responseData;
+
+}
 
 
 @property (nonatomic)int songId;
@@ -32,9 +37,15 @@
 @property (nonatomic)NSDate   *createDate;
 @property (nonatomic)double trackLength;
 
+@property (nonatomic, strong) NSURLSession *session;
 
 
-- (NSMutableArray *)getSongs;
+
+
+- (NSMutableArray *)getSongs: (NSString *) SkillLevel;
+- (void)fetchSongs;
+- (void)fetchSongsSynch;
+- (void)FetchSongsASynch;
 
 
 @end
