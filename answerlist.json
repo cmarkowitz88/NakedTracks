@@ -1,11 +1,11 @@
 [
  
   {
-  "answer_id": "1",
+  "answer_id":"1",
   "skill_level": "beginner",
   "answer_name": "Steppenwolf - Born To Be Wild",
   "category":"rock",
-  "featured_instrument":"electric_guitar",
+  "featured_instrument":"1",
   "song_section":"intro",
   "date_created":"1/30/2015"
   },
@@ -15,7 +15,7 @@
  "skill_level": "beginner",
  "answer_name": "Rush - Tom Sawyer",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -25,7 +25,7 @@
  "skill_level": "beginner",
  "answer_name": "Led Zeppelin - Ramble On",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -36,7 +36,7 @@
  "skill_level": "beginner",
  "answer_name": "Pink Floyd - Money",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -46,7 +46,7 @@
  "skill_level": "beginner",
  "answer_name": "The Beatles - Day Tripper",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -56,7 +56,7 @@
  "skill_level": "beginner",
  "answer_name": "Steeley Dan - Kid Charlamagne",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -66,7 +66,7 @@
  "skill_level": "beginner",
  "answer_name": "The Who - Who Are You",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -76,7 +76,7 @@
  "skill_level": "beginner",
  "answer_name": "Kansas - Dust In The Wind",
  "category":"rock",
- "featured_instrument":"acoustic_guitar",
+ "featured_instrument":"2",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -86,7 +86,7 @@
  "skill_level": "beginner",
  "answer_name": "Cheap Trick - Surrender",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -96,7 +96,7 @@
  "skill_level": "beginner",
  "answer_name": "Foreigner - Urgent",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -106,7 +106,7 @@
  "skill_level": "beginner",
  "answer_name": "Rolling Stones - Tumbling Dice",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -116,7 +116,7 @@
  "skill_level": "beginner",
  "answer_name": "Ted Nugent - Cat Scratch Fever",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -126,7 +126,7 @@
  "skill_level": "beginner",
  "answer_name": "Van Halen - Ice Cream Man",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -136,7 +136,7 @@
  "skill_level": "beginner",
  "answer_name": "Iron Maiden - The Trooper",
  "category":"rock",
- "featured_instrument":"electric_bass",
+ "featured_instrument":"3",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -146,7 +146,7 @@
  "skill_level": "beginner",
  "answer_name": "Judas Priest - Hell Bent For Leather",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -156,7 +156,7 @@
  "skill_level": "beginner",
  "answer_name": "Genesis - No Reply At All",
  "category":"rock",
- "featured_instrument":"electric_bass",
+ "featured_instrument":"3",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -166,7 +166,7 @@
  "skill_level": "beginner",
  "answer_name": "AC/DC - Back In Black",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -176,7 +176,7 @@
  "skill_level": "beginner",
  "answer_name": "The Beatles - Blackbird",
  "category":"rock",
- "featured_instrument":"acoustic_guitar",
+ "featured_instrument":"2",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -186,7 +186,7 @@
  "skill_level": "beginner",
  "answer_name": "Lynnrd Skynnrd - Freebird",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -196,7 +196,7 @@
  "skill_level": "beginner",
  "answer_name": "Guns & Roses - Paradise City",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -206,7 +206,7 @@
  "skill_level": "beginner",
  "answer_name": "Guns & Roses - Welcome To The Jungle",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -216,7 +216,7 @@
  "skill_level": "beginner",
  "answer_name": "AC/DC - Hells Bells",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -226,7 +226,7 @@
  "skill_level": "beginner",
  "answer_name": "AC/DC - TNT",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -236,7 +236,7 @@
  "skill_level": "beginner",
  "answer_name": "AC/DC - Shoot To Thrill",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -246,7 +246,7 @@
  "skill_level": "beginner",
  "answer_name": "AC/DC - You Shook Me All Night Long",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -256,7 +256,7 @@
  "skill_level": "beginner",
  "answer_name": "Led Zeppelin - Rock & Roll",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -266,7 +266,7 @@
  "skill_level": "beginner",
  "answer_name": "Led Zeppelin - Good Times Bad Times",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -276,7 +276,7 @@
  "skill_level": "beginner",
  "answer_name": "Led Zeppelin - You Shook Me",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -286,7 +286,7 @@
  "skill_level": "beginner",
  "answer_name": "Rush - Limelight",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -296,7 +296,7 @@
  "skill_level": "beginner",
  "answer_name": "Rush - Freewill",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -306,7 +306,7 @@
  "skill_level": "beginner",
  "answer_name": "Rush - Tom Sawyer",
  "category":"rock",
- "featured_instrument":"electric_bass",
+ "featured_instrument":"3",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -316,7 +316,7 @@
  "skill_level": "beginner",
  "answer_name": "Rush - Freewill",
  "category":"rock",
- "featured_instrument":"electric_bass",
+ "featured_instrument":"3",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -326,7 +326,7 @@
  "skill_level": "beginner",
  "answer_name": "Cream - White Room",
  "category":"rock",
- "featured_instrument":"electric_bass",
+ "featured_instrument":"3",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -336,7 +336,7 @@
  "skill_level": "beginner",
  "answer_name": "Cream - Crossroads",
  "category":"rock",
- "featured_instrument":"electric_bass",
+ "featured_instrument":"3",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -346,7 +346,7 @@
  "skill_level": "beginner",
  "answer_name": "Cream - Sunshine Of Your Love",
  "category":"rock",
- "featured_instrument":"electric_bass",
+ "featured_instrument":"3",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -356,7 +356,7 @@
  "skill_level": "beginner",
  "answer_name": "Cream - Sunshine Of Your Love",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -366,7 +366,7 @@
  "skill_level": "beginner",
  "answer_name": "The Beach Boys - Surfin Safari",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -376,7 +376,7 @@
  "skill_level": "beginner",
  "answer_name": "Van Halen - 5150",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -386,7 +386,7 @@
  "skill_level": "beginner",
  "answer_name": "Asia - Heat Of The Moment",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -396,7 +396,7 @@
  "skill_level": "beginner",
  "answer_name": "Elton John - Saturday Night's Allright",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -406,7 +406,7 @@
  "skill_level": "beginner",
  "answer_name": "Elton John - Tiny Dancer",
  "category":"rock",
- "featured_instrument":"piano",
+ "featured_instrument":"4",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -416,7 +416,7 @@
  "skill_level": "beginner",
  "answer_name": "Elton John - Bennie And The Jets",
  "category":"rock",
- "featured_instrument":"piano",
+ "featured_instrument":"4",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -426,7 +426,7 @@
  "skill_level": "beginner",
  "answer_name": "Billy Joel - Piano Man",
  "category":"rock",
- "featured_instrument":"piano",
+ "featured_instrument":"4",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -436,7 +436,7 @@
  "skill_level": "beginner",
  "answer_name": "Billy Joel - Allentown",
  "category":"rock",
- "featured_instrument":"piano",
+ "featured_instrument":"4",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -446,7 +446,7 @@
  "skill_level": "beginner",
  "answer_name": "Billy Joel - Movin Out",
  "category":"rock",
- "featured_instrument":"piano",
+ "featured_instrument":"4",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -456,7 +456,7 @@
  "skill_level": "beginner",
  "answer_name": "The Beatles - Lady Madonna",
  "category":"rock",
- "featured_instrument":"piano",
+ "featured_instrument":"4",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -466,7 +466,7 @@
  "skill_level": "beginner",
  "answer_name": "The Who - The Real Me",
  "category":"rock",
- "featured_instrument":"electric_bass",
+ "featured_instrument":"3",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -476,7 +476,7 @@
  "skill_level": "beginner",
  "answer_name": "The Who - Love Reign o'er Me",
  "category":"rock",
- "featured_instrument":"piano",
+ "featured_instrument":"4",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -486,7 +486,7 @@
  "skill_level": "beginner",
  "answer_name": "Rush - The Spirit Of Radio",
  "category":"rock",
- "featured_instrument":"piano",
+ "featured_instrument":"4",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -496,7 +496,7 @@
  "skill_level": "beginner",
  "answer_name": "The Rolling Stones - Let's Spend The Night Together",
  "category":"rock",
- "featured_instrument":"piano",
+ "featured_instrument":"4",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -506,7 +506,7 @@
  "skill_level": "beginner",
  "answer_name": "The Rolling Stones - Sympathy For The Devil",
  "category":"rock",
- "featured_instrument":"piano",
+ "featured_instrument":"4",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -516,7 +516,7 @@
  "skill_level": "beginner",
  "answer_name": "The Rolling Stones - Brown Sugar",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -526,7 +526,7 @@
  "skill_level": "beginner",
  "answer_name": "The Rolling Stones - Paint It Black",
  "category":"rock",
- "featured_instrument":"piano",
+ "featured_instrument":"4",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -536,7 +536,7 @@
  "skill_level": "beginner",
  "answer_name": "Pink Floyd - The Great Gig In The Sky",
  "category":"rock",
- "featured_instrument":"piano",
+ "featured_instrument":"4",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -546,7 +546,7 @@
  "skill_level": "beginner",
  "answer_name": "Pink Floyd - Us And Them",
  "category":"rock",
- "featured_instrument":"piano",
+ "featured_instrument":"4",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -556,7 +556,7 @@
  "skill_level": "beginner",
  "answer_name": "The Doobie Brothers - China Grove",
  "category":"rock",
- "featured_instrument":"piano",
+ "featured_instrument":"4",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -566,7 +566,7 @@
  "skill_level": "beginner",
  "answer_name": "Derek and The Dominos - Layla",
  "category":"rock",
- "featured_instrument":"piano",
+ "featured_instrument":"4",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -576,7 +576,7 @@
  "skill_level": "beginner",
  "answer_name": "Styx - Come Sail Away",
  "category":"rock",
- "featured_instrument":"piano",
+ "featured_instrument":"4",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -586,7 +586,7 @@
  "skill_level": "beginner",
  "answer_name": "Bruce Springsteen - Thunder Road",
  "category":"rock",
- "featured_instrument":"piano",
+ "featured_instrument":"4",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -596,7 +596,7 @@
  "skill_level": "beginner",
  "answer_name": "Bruce Hornsby - The Way It Is",
  "category":"rock",
- "featured_instrument":"piano",
+ "featured_instrument":"4",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -606,7 +606,7 @@
  "skill_level": "beginner",
  "answer_name": "The Beatles - Let It Be",
  "category":"rock",
- "featured_instrument":"piano",
+ "featured_instrument":"4",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -616,7 +616,7 @@
  "skill_level": "beginner",
  "answer_name": "The Beatles - Hey Jude",
  "category":"rock",
- "featured_instrument":"piano",
+ "featured_instrument":"4",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -626,7 +626,7 @@
  "skill_level": "beginner",
  "answer_name": "The Beatles - A Day In The Life",
  "category":"rock",
- "featured_instrument":"piano",
+ "featured_instrument":"4",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -636,7 +636,7 @@
  "skill_level": "beginner",
  "answer_name": "The Eagles - Desperado",
  "category":"rock",
- "featured_instrument":"piano",
+ "featured_instrument":"4",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -646,7 +646,7 @@
  "skill_level": "beginner",
  "answer_name": "The Doors - Roadhouse Blues",
  "category":"rock",
- "featured_instrument":"piano",
+ "featured_instrument":"4",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -656,7 +656,7 @@
  "skill_level": "beginner",
  "answer_name": "Journey - Open Arms",
  "category":"rock",
- "featured_instrument":"piano",
+ "featured_instrument":"4",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -666,7 +666,7 @@
  "skill_level": "beginner",
  "answer_name": "Journey - Faithfullly",
  "category":"rock",
- "featured_instrument":"piano",
+ "featured_instrument":"4",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -676,7 +676,7 @@
  "skill_level": "beginner",
  "answer_name": "Journey - Who's Crying Now",
  "category":"rock",
- "featured_instrument":"piano",
+ "featured_instrument":"4",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -686,7 +686,7 @@
  "skill_level": "beginner",
  "answer_name": "Journey - Lay It Down",
  "category":"rock",
- "featured_instrument":"piano",
+ "featured_instrument":"4",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -696,7 +696,7 @@
  "skill_level": "beginner",
  "answer_name": "Journey - After The Fall",
  "category":"rock",
- "featured_instrument":"piano",
+ "featured_instrument":"4",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -706,7 +706,7 @@
  "skill_level": "beginner",
  "answer_name": "Billy Joel - Captain Jack",
  "category":"rock",
- "featured_instrument":"piano",
+ "featured_instrument":"4",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -716,7 +716,7 @@
  "skill_level": "beginner",
  "answer_name": "Billy Joel - New York State Of Mind",
  "category":"rock",
- "featured_instrument":"piano",
+ "featured_instrument":"4",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -726,7 +726,7 @@
  "skill_level": "beginner",
  "answer_name": "Billy Joel - The Stranger",
  "category":"rock",
- "featured_instrument":"piano",
+ "featured_instrument":"4",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -736,7 +736,7 @@
  "skill_level": "beginner",
  "answer_name": "Billy Joel - She's Got A Way",
  "category":"rock",
- "featured_instrument":"piano",
+ "featured_instrument":"4",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -746,7 +746,7 @@
  "skill_level": "beginner",
  "answer_name": "Genesis - Firth Of Fifth",
  "category":"rock",
- "featured_instrument":"piano",
+ "featured_instrument":"4",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -756,7 +756,7 @@
  "skill_level": "beginner",
  "answer_name": "Genesis - That's All",
  "category":"rock",
- "featured_instrument":"piano",
+ "featured_instrument":"4",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -766,7 +766,7 @@
  "skill_level": "beginner",
  "answer_name": "Jerry Lee Lewis - Great Balls Of Fire",
  "category":"rock",
- "featured_instrument":"piano",
+ "featured_instrument":"4",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -776,7 +776,7 @@
  "skill_level": "beginner",
  "answer_name": "Lynrd Skynrd - Tuesday's Gone",
  "category":"rock",
- "featured_instrument":"piano",
+ "featured_instrument":"4",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -786,7 +786,7 @@
  "skill_level": "beginner",
  "answer_name": "Billy Joel - Angry Young Man",
  "category":"rock",
- "featured_instrument":"piano",
+ "featured_instrument":"4",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -796,7 +796,7 @@
  "skill_level": "beginner",
  "answer_name": "Bob Seger - Old Time Rock And Roll",
  "category":"rock",
- "featured_instrument":"piano",
+ "featured_instrument":"4",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -806,7 +806,7 @@
  "skill_level": "beginner",
  "answer_name": "Journey - Don't Stop Believin",
  "category":"rock",
- "featured_instrument":"piano",
+ "featured_instrument":"4",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -816,7 +816,7 @@
  "skill_level": "beginner",
  "answer_name": "John Legend - All Of Me",
  "category":"rock",
- "featured_instrument":"piano",
+ "featured_instrument":"4",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -826,7 +826,7 @@
  "skill_level": "beginner",
  "answer_name": "Mott The Hoople - All The Way From Memphis",
  "category":"rock",
- "featured_instrument":"piano",
+ "featured_instrument":"4",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -836,7 +836,7 @@
  "skill_level": "beginner",
  "answer_name": "Paul McCartney - Maybe I'm Amazed",
  "category":"rock",
- "featured_instrument":"piano",
+ "featured_instrument":"4",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -846,7 +846,7 @@
  "skill_level": "beginner",
  "answer_name": "The Beatles - While My Guitar Gently Weeps",
  "category":"rock",
- "featured_instrument":"piano",
+ "featured_instrument":"4",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -856,7 +856,7 @@
  "skill_level": "beginner",
  "answer_name": "Free - Allright Now",
  "category":"rock",
- "featured_instrument":"piano",
+ "featured_instrument":"4",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -866,7 +866,7 @@
  "skill_level": "beginner",
  "answer_name": "The Eagles - Hotel California",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -876,7 +876,7 @@
  "skill_level": "beginner",
  "answer_name": "The Eagles - Life In The Fast Lane",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -886,7 +886,7 @@
  "skill_level": "beginner",
  "answer_name": "Boston - Rock And Roll Band",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -896,7 +896,7 @@
  "skill_level": "beginner",
  "answer_name": "Green Day - Longview",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -906,7 +906,7 @@
  "skill_level": "beginner",
  "answer_name": "Green Day - Basket Case",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -916,7 +916,7 @@
  "skill_level": "beginner",
  "answer_name": "Nicleback - How U Remind Me",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -926,7 +926,7 @@
  "skill_level": "beginner",
  "answer_name": "Nicleback - Rock Star",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -936,7 +936,7 @@
  "skill_level": "beginner",
  "answer_name": "Nicleback - Photograph",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -946,7 +946,7 @@
  "skill_level": "beginner",
  "answer_name": "One Republic - Counting Stars",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -956,7 +956,7 @@
  "skill_level": "beginner",
  "answer_name": "Fall Out Boy - Thanks For The Memories",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -966,7 +966,7 @@
  "skill_level": "beginner",
  "answer_name": "Foreigner - Cold As Ice",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -976,7 +976,7 @@
  "skill_level": "beginner",
  "answer_name": "Queen - Killer Queen",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -986,7 +986,7 @@
  "skill_level": "beginner",
  "answer_name": "Queen - We Are The Champions",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -996,7 +996,7 @@
  "skill_level": "beginner",
  "answer_name": "Led Zeppelin - Hearbreaker",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1006,7 +1006,7 @@
  "skill_level": "beginner",
  "answer_name": "Pat Benatar - Hit Me With Your Best Shot",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1016,7 +1016,7 @@
  "skill_level": "beginner",
  "answer_name": "Pat Benatar - HeartBreaker",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1026,7 +1026,7 @@
  "skill_level": "beginner",
  "answer_name": "Pat Benatar - Fire And Ice",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1036,7 +1036,7 @@
  "skill_level": "beginner",
  "answer_name": "Grand Funk Railroad - American Band",
  "category":"rock",
- "featured_instrument":"electric_bass",
+ "featured_instrument":"3",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1046,7 +1046,7 @@
  "skill_level": "beginner",
  "answer_name": "Pearl Jam - Jeremy",
  "category":"rock",
- "featured_instrument":"electric_bass",
+ "featured_instrument":"3",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1056,7 +1056,7 @@
  "skill_level": "beginner",
  "answer_name": "The Who - Pinball Wizard",
  "category":"rock",
- "featured_instrument":"electric_bass",
+ "featured_instrument":"3",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1066,7 +1066,7 @@
  "skill_level": "beginner",
  "answer_name": "The Beatles - Day Tripper",
  "category":"rock",
- "featured_instrument":"electric_bass",
+ "featured_instrument":"3",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1076,7 +1076,7 @@
  "skill_level": "beginner",
  "answer_name": "The Beatles - Taxman",
  "category":"rock",
- "featured_instrument":"electric_bass",
+ "featured_instrument":"3",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1086,7 +1086,7 @@
  "skill_level": "beginner",
  "answer_name": "Bad Company - Can't Get Enough",
  "category":"rock",
- "featured_instrument":"electric_bass",
+ "featured_instrument":"3",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1096,7 +1096,7 @@
  "skill_level": "beginner",
  "answer_name": "Bad Company - Feel Like Makin Love",
  "category":"rock",
- "featured_instrument":"electric_bass",
+ "featured_instrument":"3",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1106,7 +1106,7 @@
  "skill_level": "beginner",
  "answer_name": "The Police - Walking On The Moon",
  "category":"rock",
- "featured_instrument":"electric_bass",
+ "featured_instrument":"3",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1116,7 +1116,7 @@
  "skill_level": "beginner",
  "answer_name": "Pink Floyd - Money",
  "category":"rock",
- "featured_instrument":"electric_bass",
+ "featured_instrument":"3",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1126,7 +1126,7 @@
  "skill_level": "beginner",
  "answer_name": "American Life - Primus",
  "category":"rock",
- "featured_instrument":"electric_bass",
+ "featured_instrument":"3",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1136,7 +1136,7 @@
  "skill_level": "beginner",
  "answer_name": "Red Hot Chili Peppers - Give It Away",
  "category":"rock",
- "featured_instrument":"electric_bass",
+ "featured_instrument":"3",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1146,7 +1146,7 @@
  "skill_level": "beginner",
  "answer_name": "Thin Lizzy - Dancing In The Moonlight",
  "category":"rock",
- "featured_instrument":"electric_bass",
+ "featured_instrument":"3",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1156,7 +1156,7 @@
  "skill_level": "beginner",
  "answer_name": "Queen - Under Pressure",
  "category":"rock",
- "featured_instrument":"electric_bass",
+ "featured_instrument":"3",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1166,7 +1166,7 @@
  "skill_level": "beginner",
  "answer_name": "Motorhead - The Ace Of Spades",
  "category":"rock",
- "featured_instrument":"electric_bass",
+ "featured_instrument":"3",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1176,7 +1176,7 @@
  "skill_level": "beginner",
  "answer_name": "Michael Jackson - Billie Jean",
  "category":"rock",
- "featured_instrument":"electric_bass",
+ "featured_instrument":"3",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1186,7 +1186,7 @@
  "skill_level": "beginner",
  "answer_name": "Lou Reed - Walk On The Wild Side",
  "category":"rock",
- "featured_instrument":"electric_bass",
+ "featured_instrument":"3",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1196,7 +1196,7 @@
  "skill_level": "beginner",
  "answer_name": "Def Leppard - Photograph",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1206,7 +1206,7 @@
  "skill_level": "beginner",
  "answer_name": "Def Leppard - Rocket",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1216,7 +1216,7 @@
  "skill_level": "beginner",
  "answer_name": "Def Leppard - Foolin",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1226,7 +1226,7 @@
  "skill_level": "beginner",
  "answer_name": "The Eagles - Hotel California",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1236,7 +1236,7 @@
  "skill_level": "beginner",
  "answer_name": "Van Halen - Beautiful Girls",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1246,7 +1246,7 @@
  "skill_level": "beginner",
  "answer_name": "Van Halen - Hot For Teacher",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1256,7 +1256,7 @@
  "skill_level": "beginner",
  "answer_name": "Van Halen - Unchained",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1266,7 +1266,7 @@
  "skill_level": "beginner",
  "answer_name": "Van Halen - Jump",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1276,7 +1276,7 @@
  "skill_level": "beginner",
  "answer_name": "Van Halen - Panama",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1286,7 +1286,7 @@
  "skill_level": "beginner",
  "answer_name": "Van Halen - You Really Got Me",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1296,7 +1296,7 @@
  "skill_level": "beginner",
  "answer_name": "Thin Lizzy - Jailbreak",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1306,7 +1306,7 @@
  "skill_level": "beginner",
  "answer_name": "BTO - Takin' Care Of Business",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1316,7 +1316,7 @@
  "skill_level": "beginner",
  "answer_name": "Metallica - Ride The Lightning",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1326,7 +1326,7 @@
  "skill_level": "beginner",
  "answer_name": "Metallica - Enter Sandman",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1336,7 +1336,7 @@
  "skill_level": "beginner",
  "answer_name": "Procol Harum - Whiter Shade Of Pail",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1346,7 +1346,7 @@
  "skill_level": "beginner",
  "answer_name": "Metallica - One",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1356,7 +1356,7 @@
  "skill_level": "beginner",
  "answer_name": "The Police - Message In A Bottle",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1366,7 +1366,7 @@
  "skill_level": "beginner",
  "answer_name": "The Police - So Lonely",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1376,7 +1376,7 @@
  "skill_level": "beginner",
  "answer_name": "The Police - Roxanne",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1386,7 +1386,7 @@
  "skill_level": "beginner",
  "answer_name": "Iron Maiden - Flight Of Icarus",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1396,7 +1396,7 @@
  "skill_level": "beginner",
  "answer_name": "Free - Allright Now",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1406,7 +1406,7 @@
  "skill_level": "beginner",
  "answer_name": "Lynyrd Skynrd - Sweet Home Alambma",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1416,7 +1416,7 @@
  "skill_level": "beginner",
  "answer_name": "The Rolling Stones - Satisfaction",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1426,7 +1426,7 @@
  "skill_level": "beginner",
  "answer_name": "Red Hot Chili Peppers - Higher Ground",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1436,7 +1436,7 @@
  "skill_level": "beginner",
  "answer_name": "Red Hot Chili Peppers - Higher Ground",
  "category":"rock",
- "featured_instrument":"electric_bass",
+ "featured_instrument":"3",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1446,7 +1446,7 @@
  "skill_level": "beginner",
  "answer_name": "Red Hot Chili Peppers - Suck My Kiss",
  "category":"rock",
- "featured_instrument":"electric_bass",
+ "featured_instrument":"3",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1456,7 +1456,7 @@
  "skill_level": "beginner",
  "answer_name": "Mr. Big - Addicted To That Rush",
  "category":"rock",
- "featured_instrument":"electric_bass",
+ "featured_instrument":"3",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1466,7 +1466,7 @@
  "skill_level": "beginner",
  "answer_name": "Mr. Big - 30 Days In The Hole",
  "category":"rock",
- "featured_instrument":"electric_bass",
+ "featured_instrument":"3",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1476,7 +1476,7 @@
  "skill_level": "beginner",
  "answer_name": "David Lee Roth - Shy Boy",
  "category":"rock",
- "featured_instrument":"electric_bass",
+ "featured_instrument":"3",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1486,7 +1486,7 @@
  "skill_level": "beginner",
  "answer_name": "David Lee Roth - Yankee Rose",
  "category":"rock",
- "featured_instrument":"electric_bass",
+ "featured_instrument":"3",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1496,7 +1496,7 @@
  "skill_level": "beginner",
  "answer_name": "Mr. Big - To Be With You",
  "category":"rock",
- "featured_instrument":"electric_bass",
+ "featured_instrument":"3",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1506,7 +1506,7 @@
  "skill_level": "beginner",
  "answer_name": "Led Zeppelin - The Ocean",
  "category":"rock",
- "featured_instrument":"electric_bass",
+ "featured_instrument":"3",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1516,7 +1516,7 @@
  "skill_level": "beginner",
  "answer_name": "Led Zeppelin - Black Dog",
  "category":"rock",
- "featured_instrument":"electric_bass",
+ "featured_instrument":"3",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1526,7 +1526,7 @@
  "skill_level": "beginner",
  "answer_name": "Queen - Killer Queen",
  "category":"rock",
- "featured_instrument":"electric_bass",
+ "featured_instrument":"3",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1536,7 +1536,7 @@
  "skill_level": "beginner",
  "answer_name": "The Who - Won't Get Fooled Again",
  "category":"rock",
- "featured_instrument":"electric_bass",
+ "featured_instrument":"3",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1546,7 +1546,7 @@
  "skill_level": "beginner",
  "answer_name": "The Police - Message In A Bottle",
  "category":"rock",
- "featured_instrument":"electric_bass",
+ "featured_instrument":"3",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1556,7 +1556,7 @@
  "skill_level": "beginner",
  "answer_name": "Queen - Another One Bites The Dust",
  "category":"rock",
- "featured_instrument":"electric_bass",
+ "featured_instrument":"3",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1566,7 +1566,7 @@
  "skill_level": "beginner",
  "answer_name": "Yes - Roundabout",
  "category":"rock",
- "featured_instrument":"electric_bass",
+ "featured_instrument":"3",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1576,7 +1576,7 @@
  "skill_level": "beginner",
  "answer_name": "The Who - My Generation",
  "category":"rock",
- "featured_instrument":"electric_bass",
+ "featured_instrument":"3",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1586,7 +1586,7 @@
  "skill_level": "beginner",
  "answer_name": "Deep Purple - Smoke On The Water",
  "category":"rock",
- "featured_instrument":"electric_bass",
+ "featured_instrument":"3",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1596,7 +1596,7 @@
  "skill_level": "beginner",
  "answer_name": "Deep Purple - Highway Star",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1606,7 +1606,7 @@
  "skill_level": "beginner",
  "answer_name": "Deep Purple - Burn",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1616,7 +1616,7 @@
  "skill_level": "beginner",
  "answer_name": "Deep Purple - Perfect Strangers",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1626,7 +1626,7 @@
  "skill_level": "beginner",
  "answer_name": "Aerosmith - Walk This Way",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1636,7 +1636,7 @@
  "skill_level": "beginner",
  "answer_name": "Aerosmith - Sweet Emotion",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1646,7 +1646,7 @@
  "skill_level": "beginner",
  "answer_name": "Aerosmith - Dream On",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1656,7 +1656,7 @@
  "skill_level": "beginner",
  "answer_name": "Aerosmith - Toys In The Attic",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1666,17 +1666,539 @@
  "skill_level": "beginner",
  "answer_name": "Aerosmith - Rag Doll",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
+ 
+ {
+ "answer_id": "304",
+ "skill_level": "beginner",
+ "answer_name": "Draft Punk - Around The World",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "305",
+ "skill_level": "beginner",
+ "answer_name": "Draft Punk - Around The World",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "306",
+ "skill_level": "beginner",
+ "answer_name": "Tool - Schism",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "307",
+ "skill_level": "beginner",
+ "answer_name": "Muse - Hysteria",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "308",
+ "skill_level": "beginner",
+ "answer_name": "Daft Punk - Get Lucky",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "309",
+ "skill_level": "beginner",
+ "answer_name": "Daft Punk - Get Lucky",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "310",
+ "skill_level": "beginner",
+ "answer_name": "Deep Purple - Highway Star",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "311",
+ "skill_level": "beginner",
+ "answer_name": "Yes - The Fish",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "312",
+ "skill_level": "beginner",
+ "answer_name": "Yes - Tempus Fugit",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "313",
+ "skill_level": "beginner",
+ "answer_name": "Yes - Tempus Fugit",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "314",
+ "skill_level": "beginner",
+ "answer_name": "Yes - Tempus Fugit",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "315",
+ "skill_level": "beginner",
+ "answer_name": "Led Zeppelin - The Lemon Song",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "316",
+ "skill_level": "beginner",
+ "answer_name": "Red Hot Chili Peppers - Aeroplane",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "317",
+ "skill_level": "beginner",
+ "answer_name": "The Rolling Stones - Under My Thumb",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "318",
+ "skill_level": "beginner",
+ "answer_name": "Led Zeppelin - The Crunge",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "319",
+ "skill_level": "beginner",
+ "answer_name": "Black Sabbath - War Pigs",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "320",
+ "skill_level": "beginner",
+ "answer_name": "Cream - I'm So Glad",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "321",
+ "skill_level": "beginner",
+ "answer_name": "Fleetwood Mac - Don't Stop",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "322",
+ "skill_level": "beginner",
+ "answer_name": "Journey - Stone In Love",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "323",
+ "skill_level": "beginner",
+ "answer_name": "Led Zeppelin - The Ocean",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "324",
+ "skill_level": "beginner",
+ "answer_name": "Led Zeppelin - Heartbreaker",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "325",
+ "skill_level": "beginner",
+ "answer_name": "Rush - Animate",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "326",
+ "skill_level": "beginner",
+ "answer_name": "Faith No More - Falling To Pieces",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "327",
+ "skill_level": "beginner",
+ "answer_name": "Iron Maiden - Aces High",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "328",
+ "skill_level": "beginner",
+ "answer_name": "Yes - Starship Trooper",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "329",
+ "skill_level": "beginner",
+ "answer_name": "Pearl Jam - Oceans",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "330",
+ "skill_level": "beginner",
+ "answer_name": "Pearl Jam - Mind Your Manners",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "331",
+ "skill_level": "beginner",
+ "answer_name": "Pearl Jam - Garden",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "332",
+ "skill_level": "beginner",
+ "answer_name": "The Police - Roxanne",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "333",
+ "skill_level": "beginner",
+ "answer_name": "AC/DC - Back In Black",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "334",
+ "skill_level": "beginner",
+ "answer_name": "The Beatles - Something",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "335",
+ "skill_level": "beginner",
+ "answer_name": "The Beatles - Something",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "336",
+ "skill_level": "beginner",
+ "answer_name": "The Beatles - Penny Lane",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "336",
+ "skill_level": "beginner",
+ "answer_name": "Billy Idol - White Wedding",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "337",
+ "skill_level": "beginner",
+ "answer_name": "Billy Idol - Rebel Yell",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "338",
+ "skill_level": "beginner",
+ "answer_name": "Billy Joel - The Entertainer",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "339",
+ "skill_level": "beginner",
+ "answer_name": "Billy Joel - Only the Good Die Young",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "340",
+ "skill_level": "beginner",
+ "answer_name": "Zac Brown Band - Day For The Dead",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "341",
+ "skill_level": "beginner",
+ "answer_name": "Zac Brown Band - Uncaged",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "342",
+ "skill_level": "beginner",
+ "answer_name": "Zac Brown Band - Mango Tree",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "343",
+ "skill_level": "beginner",
+ "answer_name": "The Who - Bargain",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "344",
+ "skill_level": "beginner",
+ "answer_name": "The Who - Who Are You",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "345",
+ "skill_level": "beginner",
+ "answer_name": "The Who - Getting In Tune",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "346",
+ "skill_level": "beginner",
+ "answer_name": "The Who - Squeeze Box",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "347",
+ "skill_level": "beginner",
+ "answer_name": "The Who - Heaven And Hell",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "348",
+ "skill_level": "beginner",
+ "answer_name": "The Who - Tattoo",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "349",
+ "skill_level": "beginner",
+ "answer_name": "Van Halen - Beautiful Girls",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "350",
+ "skill_level": "beginner",
+ "answer_name": "Van Halen - Tattoo",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "351",
+ "skill_level": "beginner",
+ "answer_name": "Gov't Mule - Soulshine",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "352",
+ "skill_level": "beginner",
+ "answer_name": "Jimi Hendrix - Purple Haze",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "353",
+ "skill_level": "beginner",
+ "answer_name": "Jimi Hendrix - Angel",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "353",
+ "skill_level": "beginner",
+ "answer_name": "Allman Brothers Band - Jessica",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ 
  
  {
  "answer_id": "164",
  "skill_level": "beginner",
  "answer_name": "Aerosmith - Permanent Vacation",
  "category":"rock",
- "featured_instrument":"electric_guitar",
+ "featured_instrument":"1",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1686,7 +2208,7 @@
  "skill_level": "beginner",
  "answer_name": "Led Zeppelin - Ramble On",
  "category":"rock",
- "featured_instrument":"acoustic_guitar",
+ "featured_instrument":"2",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1696,7 +2218,7 @@
  "skill_level": "beginner",
  "answer_name": "Eric Clapton - Layla",
  "category":"rock",
- "featured_instrument":"acoustic_guitar",
+ "featured_instrument":"2",
  "song_section":"intro",
  "date_created":"1/30/2015"
  },
@@ -1706,13 +2228,2964 @@
  "skill_level": "beginner",
  "answer_name": "The Beatles - Here Comes The Sun",
  "category":"rock",
- "featured_instrument":"acoustic_guitar",
+ "featured_instrument":"2",
  "song_section":"intro",
  "date_created":"1/30/2015"
- }
+ },
+ 
+ {
+ "answer_id": "168",
+ "skill_level": "beginner",
+ "answer_name": "Rascall Flatts - Feels Like Today",
+ "category":"rock",
+ "featured_instrument":"2",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "169",
+ "skill_level": "beginner",
+ "answer_name": "Judas Priest - Living After Midnight",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "170",
+ "skill_level": "beginner",
+ "answer_name": "Cream - White Room",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "171",
+ "skill_level": "beginner",
+ "answer_name": "Rush - Limelight",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "172",
+ "skill_level": "beginner",
+ "answer_name": "AC/DC - Back In Black",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "173",
+ "skill_level": "beginner",
+ "answer_name": "Moby Grape - Omaha",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "174",
+ "skill_level": "beginner",
+ "answer_name": "Dire Straits - Money for Nothing",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "175",
+ "skill_level": "beginner",
+ "answer_name": "King Crimson - Red",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "176",
+ "skill_level": "beginner",
+ "answer_name": "Jeff Beck - I Ain't Superstitous",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "177",
+ "skill_level": "beginner",
+ "answer_name": "Jeff Beck - Freeway Jam",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "178",
+ "skill_level": "beginner",
+ "answer_name": "Jimi Hendrix - Freedom",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "179",
+ "skill_level": "beginner",
+ "answer_name": "John Mayer - Gravity",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "180",
+ "skill_level": "beginner",
+ "answer_name": "Frank Zappa - Willie the Pimp",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "181",
+ "skill_level": "beginner",
+ "answer_name": "Steely Dan - Kid Charlemagne",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "182",
+ "skill_level": "beginner",
+ "answer_name": "Foo Fighters - Everlong",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "183",
+ "skill_level": "beginner",
+ "answer_name": "Foo Fighters - All My Life",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "184",
+ "skill_level": "beginner",
+ "answer_name": "Foo Fighters - My Hero",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ {
+ "answer_id": "185",
+ "skill_level": "beginner",
+ "answer_name": "Pearl Jam - Evenflow",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "186",
+ "skill_level": "beginner",
+ "answer_name": "Foo Fighters - Everlong",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "187",
+ "skill_level": "beginner",
+ "answer_name": "Lynyrd Skynyrd - Freebird",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "188",
+ "skill_level": "beginner",
+ "answer_name": "Ozzy Osbourne - Crazy Train",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "189",
+ "skill_level": "beginner",
+ "answer_name": "Zac Brown Band - Let it Rain",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "190",
+ "skill_level": "beginner",
+ "answer_name": "Zac Brown Band - The Wind",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "191",
+ "skill_level": "beginner",
+ "answer_name": "Jimi Hendrix - Purple Haze",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "192",
+ "skill_level": "beginner",
+ "answer_name": "Jimi Hendrix - Hey Joe",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "193",
+ "skill_level": "beginner",
+ "answer_name": "Jimi Hendrix - All Along The Watchtower",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "194",
+ "skill_level": "beginner",
+ "answer_name": "Jimi Hendrix - Machine Gun",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "195",
+ "skill_level": "beginner",
+ "answer_name": "The Sex Pistols - Holidays In The Sun",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "196",
+ "skill_level": "beginner",
+ "answer_name": "Elvis Presley - That's Allright",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "197",
+ "skill_level": "beginner",
+ "answer_name": "Elvis Presley - Mystery Train",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "198",
+ "skill_level": "beginner",
+ "answer_name": "Queen - Keep Yourself Alive",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "199",
+ "skill_level": "beginner",
+ "answer_name": "Queen - Bohemian Rhapsody",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "201",
+ "skill_level": "beginner",
+ "answer_name": "Queen - We Will Rock You",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "202",
+ "skill_level": "beginner",
+ "answer_name": "Zac Brown Band - All Alright",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "203",
+ "skill_level": "beginner",
+ "answer_name": "Zac Brown Band - Day For The Dead",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "204",
+ "skill_level": "beginner",
+ "answer_name": "Dire Straits - Sultans Of Swing",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "205",
+ "skill_level": "beginner",
+ "answer_name": "Bruce Springsteen - Born To Run",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "206",
+ "skill_level": "beginner",
+ "answer_name": "Derek and the Dominos - Layla",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "207",
+ "skill_level": "beginner",
+ "answer_name": "Eric Clapton - Cocaine",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "208",
+ "skill_level": "beginner",
+ "answer_name": "Eric Clapton - After Midnight",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "209",
+ "skill_level": "beginner",
+ "answer_name": "Nirvana - Smells Like Teen Spirit",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "210",
+ "skill_level": "beginner",
+ "answer_name": "Led Zeppelin - Stairway To Heaven",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "211",
+ "skill_level": "beginner",
+ "answer_name": "Foo Fighters - The Pretender",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "212",
+ "skill_level": "beginner",
+ "answer_name": "Foo Fighters - Best Of You",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "213",
+ "skill_level": "beginner",
+ "answer_name": "Foo Fighters - Learning To Fly",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "214",
+ "skill_level": "beginner",
+ "answer_name": "Foo Fighters - Something For Nothing",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "215",
+ "skill_level": "beginner",
+ "answer_name": "Foo Fighters - Monkey Wrench",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "216",
+ "skill_level": "beginner",
+ "answer_name": "Foo Fighters - Bridges Burning",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "217",
+ "skill_level": "beginner",
+ "answer_name": "Foo Fighters - Rope",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "218",
+ "skill_level": "beginner",
+ "answer_name": "Foo Fighters - Wheels",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "219",
+ "skill_level": "beginner",
+ "answer_name": "Micheal Jackson - Smooth Criminal",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "220",
+ "skill_level": "beginner",
+ "answer_name": "Bruce Springsteen - Born To Run",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "221",
+ "skill_level": "beginner",
+ "answer_name": "Heart - Magic Man",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "222",
+ "skill_level": "beginner",
+ "answer_name": "The Pretenders - Brass In Pocket",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "223",
+ "skill_level": "beginner",
+ "answer_name": "The Beatles - Taxman",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "224",
+ "skill_level": "beginner",
+ "answer_name": "The Beatles - Rain",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "225",
+ "skill_level": "beginner",
+ "answer_name": "Santana - Black Magic Woman",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "226",
+ "skill_level": "beginner",
+ "answer_name": "Edgar Winter Group - Frankenstein",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "227",
+ "skill_level": "beginner",
+ "answer_name": "Guns & Roses - Sweet Child o' Mine",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "228",
+ "skill_level": "beginner",
+ "answer_name": "R.E.M. - Orange Crush",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "229",
+ "skill_level": "beginner",
+ "answer_name": "Faith No More - Epic",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "230",
+ "skill_level": "beginner",
+ "answer_name": "Steely Dan - Josie",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "231",
+ "skill_level": "beginner",
+ "answer_name": "Hall & Oates - Maneater",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "232",
+ "skill_level": "beginner",
+ "answer_name": "Bob Marley & The Wailers - Get Up, Stand Up",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "233",
+ "skill_level": "beginner",
+ "answer_name": "Soundgarden - Outshine",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "234",
+ "skill_level": "beginner",
+ "answer_name": "Rush - Analog Kid",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "235",
+ "skill_level": "beginner",
+ "answer_name": "Allman Brothers Band - Whipping Post",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "236",
+ "skill_level": "beginner",
+ "answer_name": "Van Morrison - Moondance",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "237",
+ "skill_level": "beginner",
+ "answer_name": "Roxy Music - Love Is The Drug",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "238",
+ "skill_level": "beginner",
+ "answer_name": "David Bowie - Golden Years",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "239",
+ "skill_level": "beginner",
+ "answer_name": "The Stone Roses - Fools Gold",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "240",
+ "skill_level": "beginner",
+ "answer_name": "The Smithereens - Blood and Roses",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "241",
+ "skill_level": "beginner",
+ "answer_name": "Iron Maiden - Wasting Time",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "242",
+ "skill_level": "beginner",
+ "answer_name": "Iron Maiden - Flight Of Icarus",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "243",
+ "skill_level": "beginner",
+ "answer_name": "Iron Maiden - Aces High",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "244",
+ "skill_level": "beginner",
+ "answer_name": "Iron Maiden - The Trooper",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "245",
+ "skill_level": "beginner",
+ "answer_name": "Iron Maiden - Run To The Hills",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "246",
+ "skill_level": "beginner",
+ "answer_name": "Iron Maiden - The Number Of The Beast",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "247",
+ "skill_level": "beginner",
+ "answer_name": "Zac Brown Band - Toes",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "248",
+ "skill_level": "beginner",
+ "answer_name": "Zac Brown Band - All Alright",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "249",
+ "skill_level": "beginner",
+ "answer_name": "Aerosmith - Sweet Emotion",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "250",
+ "skill_level": "beginner",
+ "answer_name": "Neil Young - Down By The River",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "251",
+ "skill_level": "beginner",
+ "answer_name": "Otis Reading - The Dock Of The Bay",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "252",
+ "skill_level": "beginner",
+ "answer_name": "Cream - Badge",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "253",
+ "skill_level": "beginner",
+ "answer_name": "Golden Earning - Radar Love",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "255",
+ "skill_level": "beginner",
+ "answer_name": "The Commodores - Brick House",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "256",
+ "skill_level": "beginner",
+ "answer_name": "Steve Miller Band - Jungle Love",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "257",
+ "skill_level": "beginner",
+ "answer_name": "The Who - My Generation",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "258",
+ "skill_level": "beginner",
+ "answer_name": "Steve Miller Band - The Joker",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "259",
+ "skill_level": "beginner",
+ "answer_name": "The Stone Roses - Fools Gold",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "260",
+ "skill_level": "beginner",
+ "answer_name": "War - Low Rider",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "261",
+ "skill_level": "beginner",
+ "answer_name": "Rolling Stones - Satisfaction",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+
+ {
+ "answer_id": "262",
+ "skill_level": "beginner",
+ "answer_name": "Blondie - Rapture",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "263",
+ "skill_level": "beginner",
+ "answer_name": "Curtis Makefield - Superfly",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "264",
+ "skill_level": "beginner",
+ "answer_name": "Jefferson Airplane - White Rabbit",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "265",
+ "skill_level": "beginner",
+ "answer_name": "The Clash - London Calling",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "266",
+ "skill_level": "beginner",
+ "answer_name": "Green Day - When I Come Around",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "267",
+ "skill_level": "beginner",
+ "answer_name": "Jimi Hendrix - Manic Depression",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "268",
+ "skill_level": "beginner",
+ "answer_name": "Van Morrison - Brown Eyed Girl",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "269",
+ "skill_level": "beginner",
+ "answer_name": "Michael Jackson - Billie Jean",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "270",
+ "skill_level": "beginner",
+ "answer_name": "Cream - Sunshine Of Your Love",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+
+ {
+ "answer_id": "271",
+ "skill_level": "beginner",
+ "answer_name": "Fleetwod Mac - The Chain",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "272",
+ "skill_level": "beginner",
+ "answer_name": "Cream - White Room",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "273",
+ "skill_level": "beginner",
+ "answer_name": "Zac Brown Band - Heavy Is The Head",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "274",
+ "skill_level": "beginner",
+ "answer_name": "Rick James - Superfreak",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "275",
+ "skill_level": "beginner",
+ "answer_name": "Jimi Hendrix Experience - Fire",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "276",
+ "skill_level": "beginner",
+ "answer_name": "Jackson 5 - I Want You Back",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "277",
+ "skill_level": "beginner",
+ "answer_name": "Nirvana - Come As You Are",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "278",
+ "skill_level": "beginner",
+ "answer_name": "Yes - Long Distance Runaround",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "279",
+ "skill_level": "beginner",
+ "answer_name": "Talking Heads - Pscyho Killer",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "280",
+ "skill_level": "beginner",
+ "answer_name": "Talking Heads - Pscyho Killer",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ 
+ {
+ "answer_id": "281",
+ "skill_level": "beginner",
+ "answer_name": "Bring Down The Birds - Herbie Hancock",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "282",
+ "skill_level": "beginner",
+ "answer_name": "Led Zeppelin - Moby Dick",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "283",
+ "skill_level": "beginner",
+ "answer_name": "Chicago - 25 or 6 to 4",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "284",
+ "skill_level": "beginner",
+ "answer_name": "Jethro - Tull",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "285",
+ "skill_level": "beginner",
+ "answer_name": "Curtis Mayfield - Pusherman",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "286",
+ "skill_level": "beginner",
+ "answer_name": "Bob Marley - Stir It Up",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "287",
+ "skill_level": "beginner",
+ "answer_name": "Tower of Power - What Is Hip?",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "288",
+ "skill_level": "beginner",
+ "answer_name": "Jaco Pastorious - Come On, Come Over",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "289",
+ "skill_level": "beginner",
+ "answer_name": "Stevie Wonder - Sir Duke",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "290",
+ "skill_level": "beginner",
+ "answer_name": "Elvis Costello - Pump It Up",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+
+ {
+ "answer_id": "291",
+ "skill_level": "beginner",
+ "answer_name": "Chic - Good Times",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "292",
+ "skill_level": "beginner",
+ "answer_name": "The Jam - Town Called Malice",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "293",
+ "skill_level": "beginner",
+ "answer_name": "New Order - Blue Monday",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "294",
+ "skill_level": "beginner",
+ "answer_name": "Metallica - Orion",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "294",
+ "skill_level": "beginner",
+ "answer_name": "Megadeath - Peace Sells",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "295",
+ "skill_level": "beginner",
+ "answer_name": "Anthrax - Caught In A Mosh",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "296",
+ "skill_level": "beginner",
+ "answer_name": "The Cure - Just Like Heaven",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "297",
+ "skill_level": "beginner",
+ "answer_name": "Living Color - Cult of Personality",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "298",
+ "skill_level": "beginner",
+ "answer_name": "Primus - Tommy The Cat",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "299",
+ "skill_level": "beginner",
+ "answer_name": "Ozzy Osbourne - No More Tears",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "300",
+ "skill_level": "beginner",
+ "answer_name": "Ozzy Osbourne - Crazy Train",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+
+
+ {
+ "answer_id": "301",
+ "skill_level": "beginner",
+ "answer_name": "The Breeders - Cannonball",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "302",
+ "skill_level": "beginner",
+ "answer_name": "Soundgarden - The Day I Tried to Live",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+
+ {
+ "answer_id": "303",
+ "skill_level": "beginner",
+ "answer_name": "Weezer - Only In Dreams",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "304",
+ "skill_level": "beginner",
+ "answer_name": "AC/DC - Back In Black",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "305",
+ "skill_level": "beginner",
+ "answer_name": "The Beatles - Something",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "306",
+ "skill_level": "beginner",
+ "answer_name": "The Beatles - Something",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "307",
+ "skill_level": "beginner",
+ "answer_name": "The Beatles - Penny Lane",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "308",
+ "skill_level": "beginner",
+ "answer_name": "Billy Idol - White Wedding",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "309",
+ "skill_level": "beginner",
+ "answer_name": "Billy Idol - Rebel Yell",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "310",
+ "skill_level": "beginner",
+ "answer_name": "Billy Joel - The Entertainer",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "311",
+ "skill_level": "beginner",
+ "answer_name": "Billy Joel - Only the Good Die Young",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "312",
+ "skill_level": "beginner",
+ "answer_name": "Zac Brown Band - Day For The Dead",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "313",
+ "skill_level": "beginner",
+ "answer_name": "Zac Brown Band - Uncaged",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "314",
+ "skill_level": "beginner",
+ "answer_name": "Zac Brown Band - Mango Tree",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "315",
+ "skill_level": "beginner",
+ "answer_name": "The Who - Bargain",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "316",
+ "skill_level": "beginner",
+ "answer_name": "The Who - Who Are You",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "317",
+ "skill_level": "beginner",
+ "answer_name": "The Who - Getting In Tune",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "318",
+ "skill_level": "beginner",
+ "answer_name": "The Who - Squeeze Box",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "319",
+ "skill_level": "beginner",
+ "answer_name": "The Who - Heaven And Hell",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "320",
+ "skill_level": "beginner",
+ "answer_name": "The Who - Tattoo",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "321",
+ "skill_level": "beginner",
+ "answer_name": "Van Halen - Beautiful Girls",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "322",
+ "skill_level": "beginner",
+ "answer_name": "Van Halen - Tattoo",
+ "category":"rock",
+ "featured_instrument":"3",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "323",
+ "skill_level": "beginner",
+ "answer_name": "Gov't Mule - Soulshine",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "324",
+ "skill_level": "beginner",
+ "answer_name": "Jimi Hendrix - Purple Haze",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "325",
+ "skill_level": "beginner",
+ "answer_name": "Jimi Hendrix - Angel",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "326",
+ "skill_level": "beginner",
+ "answer_name": "Allman Brothers Band - Jessica",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/5/2015"
+ },
+ 
+ {
+ "answer_id": "327",
+ "skill_level": "beginner",
+ "answer_name": "Eric Clapton - Cocaiane",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "328",
+ "skill_level": "beginner",
+ "answer_name": "Eric Clapton - After Midnight",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "329",
+ "skill_level": "beginner",
+ "answer_name": "Jeff Beck - Freeway Jam",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "330",
+ "skill_level": "beginner",
+ "answer_name": "Jeff Beck - Beck's Bolero",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "331",
+ "skill_level": "beginner",
+ "answer_name": "Jeff Beck - She's a Woman",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "332",
+ "skill_level": "beginner",
+ "answer_name": "Jeff Beck - Going Down",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "333",
+ "skill_level": "beginner",
+ "answer_name": "Jeff Beck - I Ain't Superstitous",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "334",
+ "skill_level": "beginner",
+ "answer_name": "Jeff Beck - People Get Ready",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "335",
+ "skill_level": "beginner",
+ "answer_name": "Jeff Beck - Scatterbrain",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "336",
+ "skill_level": "beginner",
+ "answer_name": "Pink Floyd - Time",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "337",
+ "skill_level": "beginner",
+ "answer_name": "Pink Floyd - Have a Cigar",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "338",
+ "skill_level": "beginner",
+ "answer_name": "Led Zeppelin - Thank You",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "339",
+ "skill_level": "beginner",
+ "answer_name": "Led Zeppelin - The Crunge",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "340",
+ "skill_level": "beginner",
+ "answer_name": "Led Zeppelin - Hot Dog",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "341",
+ "skill_level": "beginner",
+ "answer_name": "Led Zeppelin - Black Dog",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "342",
+ "skill_level": "beginner",
+ "answer_name": "Frank Zappa - Joe's Garage",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "343",
+ "skill_level": "beginner",
+ "answer_name": "Frank Zappa - Peaches en Regalia",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "344",
+ "skill_level": "beginner",
+ "answer_name": "Frank Zappa - Muffin Man",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "345",
+ "skill_level": "beginner",
+ "answer_name": "Frank Zappa - Montana",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "346",
+ "skill_level": "beginner",
+ "answer_name": "Frank Zappa - Dirty Love",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "347",
+ "skill_level": "beginner",
+ "answer_name": "Frank Zappa - Dancin' Fool",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "348",
+ "skill_level": "beginner",
+ "answer_name": "Frank Zappa - Fine Girl",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "349",
+ "skill_level": "beginner",
+ "answer_name": "Frank Zappa - I'm The Slime",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "350",
+ "skill_level": "beginner",
+ "answer_name": "Frank Zappa - I'm The Slime",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "351",
+ "skill_level": "beginner",
+ "answer_name": "Black Sabbath - War Pigs",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "352",
+ "skill_level": "beginner",
+ "answer_name": "Black Sabbath - Iron Man",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "353",
+ "skill_level": "beginner",
+ "answer_name": "Black Sabbath - Paranoid",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "354",
+ "skill_level": "beginner",
+ "answer_name": "Black Sabbath - Sabbra Cadabra",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "355",
+ "skill_level": "beginner",
+ "answer_name": "Black Sabbath - Changes",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "356",
+ "skill_level": "beginner",
+ "answer_name": "Black Sabbath - Faries Wear Boots",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "356",
+ "skill_level": "beginner",
+ "answer_name": "Black Sabbath - Never Say Die",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "357",
+ "skill_level": "beginner",
+ "answer_name": "Black Sabbath - The Wizard",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "358",
+ "skill_level": "beginner",
+ "answer_name": "Black Sabbath - Sweat Leaf",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "359",
+ "skill_level": "beginner",
+ "answer_name": "Black Sabbath - Evil Woman",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "360",
+ "skill_level": "beginner",
+ "answer_name": "Black Sabbath - N.I.B.",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "361",
+ "skill_level": "beginner",
+ "answer_name": "Black Sabbath - Changes",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "362",
+ "skill_level": "beginner",
+ "answer_name": "The Ventures - Walk, Don't Run",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "363",
+ "skill_level": "beginner",
+ "answer_name": "The Kinks - You Really Got Me",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+
+ {
+ "answer_id": "364",
+ "skill_level": "beginner",
+ "answer_name": "Roy Orbison - Oh, Pretty Woman",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "365",
+ "skill_level": "beginner",
+ "answer_name": "Chantays - Pipeline",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "366",
+ "skill_level": "beginner",
+ "answer_name": "Dick Dale - Misirlou",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "367",
+ "skill_level": "beginner",
+ "answer_name": "The Beatles - I Feel Fine",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "368",
+ "skill_level": "beginner",
+ "answer_name": "The Byrds - Mr. Tambourine Man",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "369",
+ "skill_level": "beginner",
+ "answer_name": "The Surfaris - Wipeout",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "370",
+ "skill_level": "beginner",
+ "answer_name": "The Surfaris - Wipeout",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "371",
+ "skill_level": "beginner",
+ "answer_name": "Cream - Crossroads",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "372",
+ "skill_level": "beginner",
+ "answer_name": "Cream - Badge",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "373",
+ "skill_level": "beginner",
+ "answer_name": "BB King - The Thrill is Gone",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "374",
+ "skill_level": "beginner",
+ "answer_name": "Fleetwood Mac - Oh Well",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "375",
+ "skill_level": "beginner",
+ "answer_name": "Summertime Blues - Eddie Cochraine",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "376",
+ "skill_level": "beginner",
+ "answer_name": "Richie Valens - La Bamba",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "377",
+ "skill_level": "beginner",
+ "answer_name": "Buddy Holly - Peggy Sue",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "378",
+ "skill_level": "beginner",
+ "answer_name": "Buddy Holly - That'll Be the Day",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "379",
+ "skill_level": "beginner",
+ "answer_name": "Buddy Holly - Not Fade Away",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "380",
+ "skill_level": "beginner",
+ "answer_name": "Buddy Holly - Rave On",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "381",
+ "skill_level": "beginner",
+ "answer_name": "Buddy Holly - Oh Boy",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "382",
+ "skill_level": "beginner",
+ "answer_name": "Buddy Holly - Every Day",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "383",
+ "skill_level": "beginner",
+ "answer_name": "Elvis Presley - Heartbreak Hotel",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "384",
+ "skill_level": "beginner",
+ "answer_name": "Elvis Presley - Don't Be Cruel",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "385",
+ "skill_level": "beginner",
+ "answer_name": "Elvis Presley - Jailhouse Rock",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "386",
+ "skill_level": "beginner",
+ "answer_name": "Elvis Presley - Viva Las Vegas",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "387",
+ "skill_level": "beginner",
+ "answer_name": "Elvis Presley - Suspicious Minds",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "388",
+ "skill_level": "beginner",
+ "answer_name": "Elvis Presley - Burning Love",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "389",
+ "skill_level": "beginner",
+ "answer_name": "Radiohead - Creep",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "390",
+ "skill_level": "beginner",
+ "answer_name": "Blind Melon - No rain",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "391",
+ "skill_level": "beginner",
+ "answer_name": "Sound Garden - Black hole Sun",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "392",
+ "skill_level": "beginner",
+ "answer_name": "STP - Interstate Lovesong",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "393",
+ "skill_level": "beginner",
+ "answer_name": "Nirvana - Lithium",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "394",
+ "skill_level": "beginner",
+ "answer_name": "STP - Plush",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "395",
+ "skill_level": "beginner",
+ "answer_name": "Beastie Boys - Sabotage",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "396",
+ "skill_level": "beginner",
+ "answer_name": "U2 - Mysterious Ways",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "397",
+ "skill_level": "beginner",
+ "answer_name": "Fastball - The Way",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "398",
+ "skill_level": "beginner",
+ "answer_name": "Collective Soul - Shine",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "399",
+ "skill_level": "beginner",
+ "answer_name": "Collective Soul - Shine",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "400",
+ "skill_level": "beginner",
+ "answer_name": "Semisonic - Closing Time",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "401",
+ "skill_level": "beginner",
+ "answer_name": "Goo Goo Dolls - Iris",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "402",
+ "skill_level": "beginner",
+ "answer_name": "Live - Lightining Crashes",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "403",
+ "skill_level": "beginner",
+ "answer_name": "Beck - Loser",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "404",
+ "skill_level": "beginner",
+ "answer_name": "Alice in Chains - Would?",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "405",
+ "skill_level": "beginner",
+ "answer_name": "Bush - Glycerine",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "406",
+ "skill_level": "beginner",
+ "answer_name": "Live - I Alone",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "407",
+ "skill_level": "beginner",
+ "answer_name": "Counting Crows - Mr. Jones",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "408",
+ "skill_level": "beginner",
+ "answer_name": "Greenday - Basket Case",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "408",
+ "skill_level": "beginner",
+ "answer_name": "Greenday - Longview",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "409",
+ "skill_level": "beginner",
+ "answer_name": "Weezer - Buddy Holly",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "410",
+ "skill_level": "beginner",
+ "answer_name": "Offspring - Self Esteem",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "411",
+ "skill_level": "beginner",
+ "answer_name": "Smashing Pumpkins - 1979",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "412",
+ "skill_level": "beginner",
+ "answer_name": "Sublime - What I Got",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "413",
+ "skill_level": "beginner",
+ "answer_name": "Mother Love Bone - Crown of Thorns",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "414",
+ "skill_level": "beginner",
+ "answer_name": "Screaming Trees - Dollar Bill",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "415",
+ "skill_level": "beginner",
+ "answer_name": "Silverchair - Tomorrow",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "416",
+ "skill_level": "beginner",
+ "answer_name": "Nirvana - Rape Me",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "417",
+ "skill_level": "beginner",
+ "answer_name": "Nirvana - Come as You Are",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "418",
+ "skill_level": "beginner",
+ "answer_name": "Nirvana - All Apologies",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "419",
+ "skill_level": "beginner",
+ "answer_name": "Nirvana - In Bloom",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "420",
+ "skill_level": "beginner",
+ "answer_name": "Nirvana - Heart-Shaped Box",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "421",
+ "skill_level": "beginner",
+ "answer_name": "Nirvana - About a Girl",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "422",
+ "skill_level": "beginner",
+ "answer_name": "Brad Paisley - Whiskey Lullaby",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "423",
+ "skill_level": "beginner",
+ "answer_name": "Brad Paisley - Whiskey Lullaby",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "424",
+ "skill_level": "beginner",
+ "answer_name": "Brad Paisley - Welcome to the Future",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "425",
+ "skill_level": "beginner",
+ "answer_name": "Garth Brooks - Friends in Low Places",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "426",
+ "skill_level": "beginner",
+ "answer_name": "The Beach Boys - Good Vibrations",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "427",
+ "skill_level": "beginner",
+ "answer_name": "The Beach Boys - I Get Around",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "428",
+ "skill_level": "beginner",
+ "answer_name": "The Beach Boys - Surfin U.S.A.",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "429",
+ "skill_level": "beginner",
+ "answer_name": "The Beach Boys - Barbara Ann",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "430",
+ "skill_level": "beginner",
+ "answer_name": "The Beach Boys - Fun, Fun, Fun",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "431",
+ "skill_level": "beginner",
+ "answer_name": "The Beach Boys - Kokomo",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "432",
+ "skill_level": "beginner",
+ "answer_name": "The Beach Boys - God Only Knows",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "433",
+ "skill_level": "beginner",
+ "answer_name": "The Beach Boys - Help Me Rhonda",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "434",
+ "skill_level": "beginner",
+ "answer_name": "The Beach Boys - Pet Sounds",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "435",
+ "skill_level": "beginner",
+ "answer_name": "Eric Clapton - I Shot the Sherrif",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "436",
+ "skill_level": "beginner",
+ "answer_name": "Eric Clapton - Old Love",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "437",
+ "skill_level": "beginner",
+ "answer_name": "Eric Clapton - Pretending",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "437",
+ "skill_level": "beginner",
+ "answer_name": "Eric Clapton - Wonderful Tonight",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "438",
+ "skill_level": "beginner",
+ "answer_name": "Eric Clapton - The Core",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "439",
+ "skill_level": "beginner",
+ "answer_name": "Eric Clapton - Bad Love",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "440",
+ "skill_level": "beginner",
+ "answer_name": "Eric Clapton - Tulsa Time",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "441",
+ "skill_level": "beginner",
+ "answer_name": "Eric Clapton - Before You Accuse Me",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "442",
+ "skill_level": "beginner",
+ "answer_name": "Eric Clapton - Forever Man",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "443",
+ "skill_level": "beginner",
+ "answer_name": "Eric Clapton - Blues Power",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "444",
+ "skill_level": "beginner",
+ "answer_name": "Eric Clapton - Holy Mother",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "445",
+ "skill_level": "beginner",
+ "answer_name": "Eric Clapton - Let it Grow",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "446",
+ "skill_level": "beginner",
+ "answer_name": "Eric Clapton - Lay Down Sally",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "447",
+ "skill_level": "beginner",
+ "answer_name": "Eric Clapton - My Father's Eyes",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "448",
+ "skill_level": "beginner",
+ "answer_name": "Eric Clapton - She's Waiting",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "449",
+ "skill_level": "beginner",
+ "answer_name": "Eric Clapton - She's Waiting",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "450",
+ "skill_level": "beginner",
+ "answer_name": "Styx - Renegade",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "451",
+ "skill_level": "beginner",
+ "answer_name": "Styx - Blue Collar Man",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "452",
+ "skill_level": "beginner",
+ "answer_name": "Rush - YYZ",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "453",
+ "skill_level": "beginner",
+ "answer_name": "Rush - The Trees",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "454",
+ "skill_level": "beginner",
+ "answer_name": "Rush - Xanadu",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+
+ {
+ "answer_id": "455",
+ "skill_level": "beginner",
+ "answer_name": "Rush - Closer to the Heart",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "456",
+ "skill_level": "beginner",
+ "answer_name": "Rush - Finding My Way",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "457",
+ "skill_level": "beginner",
+ "answer_name": "Rush - Natural Science",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "458",
+ "skill_level": "beginner",
+ "answer_name": "Rush - Subdivisons",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "459",
+ "skill_level": "beginner",
+ "answer_name": "Pink Floyd - Comfortably Numb",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
+ {
+ "answer_id": "460",
+ "skill_level": "beginner",
+ "answer_name": "Pink Floyd - Hey You",
+ "category":"rock",
+ "featured_instrument":"1",
+ "song_section":"intro",
+ "date_created":"9/27/2015"
+ },
+ 
 
 
 
  
- 
-]
+ ]

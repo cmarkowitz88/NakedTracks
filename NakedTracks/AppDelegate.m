@@ -8,7 +8,21 @@
 
 #import "AppDelegate.h"
 #import "NakedTracksViewController.h"
+#import "AboutViewController.h"
 #import "NakedTracksMainView.h"
+#import "RoundsViewController.h"
+#import "Song.h"
+#import "Answer.h"
+#import "UserInfo.h"
+#import "SettingsViewController.h"
+#import "WelcomeViewController.h"
+#import "GameScreenViewController.h"
+#import "GameReviewViewController.h"
+#import "MainMenuViewController.h"
+#import "SettingsViewController.h"
+#import "NoConnectionViewController.h"
+#import "IAPViewController.h"
+#import "GameOverViewController.h"
 #import <AWSCORE/awscore.h>
 #import <AWSS3/AWSS3.h>
 
@@ -23,50 +37,61 @@ AVAudioPlayer *avSound;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
+    // Force the status bar to white
+    // Set UIViewControllerBasedStatusBarAppearance to YES in the plist AND
+    [[UIApplication sharedApplication] setStatusBarStyle: UIStatusBarStyleLightContent];
+    // END status bar
+    
+    //STARTING POINT WITH WELCOME SCREEN
+    //WelcomeViewController *welcomeVC = [[WelcomeViewController alloc]init];
+    //self.window.rootViewController = welcomeVC;
+    
+    //STARTING POINT WITH GAME OVER CONTROLLER
+    //GameOverViewController *gameOverVC = [[GameOverViewController alloc]init];
+    //self.window.rootViewController = gameOverVC;
+    
+    // ***** REAL STARTING POINT
+    //STARTING POINT WITH MAIN MENU SCREEN
+    MainMenuViewController *mainMenuVC = [[MainMenuViewController alloc]init];
+    self.window.rootViewController = mainMenuVC;
+    
+    //IAPViewController *iapVC = [[IAPViewController alloc]init];
+    //self.window.rootViewController = iapVC;
+    
+    //AboutViewController *aboutVC = [[AboutViewController alloc]init];
+    //self.window.rootViewController = aboutVC;
+    
+    //SettingsViewController *settingsVC = [[SettingsViewController alloc]init];
+    //self.window.rootViewController = settingsVC;
+    
+    //STARTING POINT
+    
+    //GameReviewViewController *gameReviewVC = [[GameReviewViewController alloc]init];
+    //self.window.rootViewController = gameReviewVC;
+    
+    //NoConnectionViewController *noConnectionVC = [[NoConnectionViewController alloc]init];
+    //self.window.rootViewController  = noConnectionVC;
+
+    
+    //GameScreenViewController *gameScreenVC = [[GameScreenViewController alloc]init];
+    //self.window.rootViewController = gameScreenVC;
+    
+    
+        
+    // Original Code that loads the game screen first and loads the navigation
+    /*
+    UITabBarController *tabBarController = [[UITabBarController alloc]init];
+    
     NakedTracksViewController *nakedVC = [[NakedTracksViewController alloc]init];
-    self.window.rootViewController = nakedVC;
-    
-   /*
-    AWSCognitoCredentialsProvider *credentialsProvider = [[AWSCognitoCredentialsProvider alloc]initWithRegionType:AWSRegionUSEast1 identityPoolId:@"us-east-1:896a2892-7e49-4a1f-b8d8-254b57b457bd"];
-    
-    AWSServiceConfiguration *configuration  = [[AWSServiceConfiguration alloc]initWithRegion:AWSRegionUSEast1 credentialsProvider:credentialsProvider];
-    
-    AWSServiceManager.defaultServiceManager.defaultServiceConfiguration = configuration;
-    
-    NSString *downloadingFilePath = [NSTemporaryDirectory() stringByAppendingPathComponent:@"Allright_Now_Gtr_Chorus.wav"];
-    NSURL *downloadingFileUrl = [NSURL fileURLWithPath:downloadingFilePath];
-    
-    AWSS3TransferManagerDownloadRequest *downloadRequest = [AWSS3TransferManagerDownloadRequest new];
-    downloadRequest.bucket = @"nakedtracks.audio";
-    downloadRequest.key = @"Allright_Now_Gtr_Chorus.wav";
-    downloadRequest.downloadingFileURL = downloadingFileUrl;
-    
-    AWSS3TransferManager *transferManager = [AWSS3TransferManager defaultS3TransferManager];
-    NSLog(@"Download started, please wait...");
-    
-    [[transferManager download:downloadRequest] continueWithExecutor:[BFExecutor mainThreadExecutor]
-                                                           withBlock:^id(BFTask *task){
-                                                               if (task.error != nil) {
-                                                                   NSLog(@"%s %@","Error downloading :", downloadRequest.key);
-                                                               }
-                                                               else {
-                                                                   NSLog(@"download completed");
-                                                                   
-                                                               }
-                                                               return nil;
-                                                           }];
+    AboutViewController *aboutVC = [[AboutViewController alloc]init];
+    SettingsViewController *settingsVC = [[SettingsViewController alloc]init];
     
     
-    AVAudioSession *session = [AVAudioSession sharedInstance];
-    [session setCategory:AVAudioSessionCategoryPlayback error:nil];
-    NSURL *soundUrl = [NSURL fileURLWithPath:downloadingFilePath ];
-    avSound = [[AVAudioPlayer alloc]initWithContentsOfURL:soundUrl error:nil];
-    [avSound prepareToPlay];
-    [avSound play];
+    tabBarController.viewControllers = [NSArray arrayWithObjects:nakedVC,aboutVC,settingsVC,nil];
+    self.window.rootViewController = tabBarController;*/
     
-    */
-    
-    
+    // Test Code Used when project was first created.
+    //self.window.rootViewController = nakedVC;
     //CGRect firstFrame = self.window.bounds;
     //NakedTracksViewController *nakedVC = [[NakedTracksViewController alloc] initWithFrame:firstFrame];
     
@@ -81,6 +106,8 @@ AVAudioPlayer *avSound;
 - (void)applicationDidEnterBackground:(UIApplication *)application {
     // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+    
+    
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application {

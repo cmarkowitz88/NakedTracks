@@ -15,8 +15,10 @@
 @property (nonatomic)NSString *answerName;
 @property (nonatomic)NSString *Category;
 @property (nonatomic)NSString *featuredInstrument;
+@property (nonatomic)int intFeaturedInstrument;
 @property (nonatomic)NSString *songSection;
 
 - (NSMutableArray *)getAnswers;
+- (NSMutableArray *)FetchAnswersSync;
 
 @end

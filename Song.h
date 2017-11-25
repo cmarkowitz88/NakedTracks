@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "AVFoundation/AVFoundation.h"
 
-@interface Song : NSObject<NSURLConnectionDelegate>
+@interface Song : NSObject<NSURLConnectionDelegate, NSCoding>
 
 {
     NSMutableData *_responseData;
@@ -32,7 +32,9 @@
 @property (nonatomic)NSString *answer5;
 @property (nonatomic)NSString *correctAnswer;
 @property (nonatomic)NSString *category;
+@property (nonatomic)int intCategory;
 @property (nonatomic)NSString *featuredInstrument;
+@property (nonatomic)int intFeaturedInstrument;
 @property (nonatomic)NSString *songSection;
 @property (nonatomic)NSDate   *createDate;
 @property (nonatomic)double trackLength;
@@ -44,8 +46,8 @@
 
 - (NSMutableArray *)getSongs: (NSString *) SkillLevel;
 - (void)fetchSongs;
-- (void)fetchSongsSynch;
-- (void)FetchSongsASynch;
+- (void)fetchSongsASynch;
+- (NSMutableArray *)fetchSongsSynch: (int) intSkillLevel arg2:(bool) blnFullVersion;
 
 
 @end
