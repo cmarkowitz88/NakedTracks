@@ -1187,6 +1187,9 @@ NSInteger intFreeTier;
     
     else if ([currentDevice.deviceType isEqualToString:@"eleven,xr"])
     {
+        intFontSize1 = 13;
+        intFontSize2 = 14;
+        
         self.mainBackgroundImage.image = [gameScreenArray objectAtIndex:intSkillLevel];
         self.mainBackgroundImage.frame = CGRectMake(0,0,screenWidth,screenHeight);
         
@@ -1201,13 +1204,13 @@ NSInteger intFreeTier;
         [self.button3.titleLabel setFont:[UIFont systemFontOfSize:intFontSize1]];
         [self.button4.titleLabel setFont:[UIFont systemFontOfSize:intFontSize1]];
         
-        NSLayoutConstraint *constraint = [NSLayoutConstraint constraintWithItem:self.streakLabel attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.mainBackgroundImage attribute:NSLayoutAttributeLeading multiplier:1.0f constant:270];
+        NSLayoutConstraint *constraint = [NSLayoutConstraint constraintWithItem:self.streakLabel attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.mainBackgroundImage attribute:NSLayoutAttributeLeading multiplier:1.0f constant:350];
         [self.view addConstraint: constraint];
         
-        NSLayoutConstraint *constraint1 = [NSLayoutConstraint constraintWithItem:self.streakLabel attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0f constant:296];
+        NSLayoutConstraint *constraint1 = [NSLayoutConstraint constraintWithItem:self.streakLabel attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0f constant:472];
         [self.view addConstraint: constraint1];
         
-        NSLayoutConstraint *constraint2 = [NSLayoutConstraint constraintWithItem:self.streakLabelText attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.mainBackgroundImage attribute:NSLayoutAttributeLeading multiplier:1.0f constant:255];
+        NSLayoutConstraint *constraint2 = [NSLayoutConstraint constraintWithItem:self.streakLabelText attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.mainBackgroundImage attribute:NSLayoutAttributeLeading multiplier:1.0f constant:300];
         [self.view addConstraint: constraint2];
         
         NSLayoutConstraint *constraint3 = [NSLayoutConstraint constraintWithItem:self.streakLabelText attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0f constant:275];
@@ -1267,29 +1270,29 @@ NSInteger intFreeTier;
         NSLayoutConstraint *constraint21 = [NSLayoutConstraint constraintWithItem:self.webView attribute:NSLayoutAttributeBottom relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeBottom multiplier:1.0f constant:55];
         [self.view addConstraint: constraint21];
         
-        NSLayoutConstraint *constraint22 = [NSLayoutConstraint constraintWithItem:self.instrument attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.mainBackgroundImage attribute:NSLayoutAttributeLeading multiplier:1.0f constant:30];
+        NSLayoutConstraint *constraint22 = [NSLayoutConstraint constraintWithItem:self.instrument attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.mainBackgroundImage attribute:NSLayoutAttributeLeading multiplier:1.0f constant:45];
         [self.view addConstraint: constraint22];
         
-        NSLayoutConstraint *constraint23 = [NSLayoutConstraint constraintWithItem:self.instrument attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0f constant:370];
+        NSLayoutConstraint *constraint23 = [NSLayoutConstraint constraintWithItem:self.instrument attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0f constant:590];
         [self.view addConstraint: constraint23];
         
         
-        NSLayoutConstraint *constraint24 = [NSLayoutConstraint constraintWithItem:self.statusLabel attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.mainBackgroundImage attribute:NSLayoutAttributeLeading multiplier:1.0f constant:150];
+        NSLayoutConstraint *constraint24 = [NSLayoutConstraint constraintWithItem:self.statusLabel attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.mainBackgroundImage attribute:NSLayoutAttributeLeading multiplier:1.0f constant:220];
         [self.view addConstraint: constraint24];
         
-        NSLayoutConstraint *constraint25 = [NSLayoutConstraint constraintWithItem:self.statusLabel attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0f constant:340];
+        NSLayoutConstraint *constraint25 = [NSLayoutConstraint constraintWithItem:self.statusLabel attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0f constant:540];
         [self.view addConstraint: constraint25];
         
-        NSLayoutConstraint *constraint26 = [NSLayoutConstraint constraintWithItem:self.hintText attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.mainBackgroundImage attribute:NSLayoutAttributeLeading multiplier:1.0f constant:100];
+        NSLayoutConstraint *constraint26 = [NSLayoutConstraint constraintWithItem:self.hintText attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.mainBackgroundImage attribute:NSLayoutAttributeLeading multiplier:1.0f constant:140];
         [self.view addConstraint: constraint26];
         
-        NSLayoutConstraint *constraint27 = [NSLayoutConstraint constraintWithItem:self.hintText attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0f constant:360];
+        NSLayoutConstraint *constraint27 = [NSLayoutConstraint constraintWithItem:self.hintText attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0f constant:570];
         [self.view addConstraint: constraint27];
         
-        NSLayoutConstraint *constraint28 = [NSLayoutConstraint constraintWithItem:self.hintText attribute:NSLayoutAttributeTrailing relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTrailing multiplier:1.0f constant:-25];
+        NSLayoutConstraint *constraint28 = [NSLayoutConstraint constraintWithItem:self.hintText attribute:NSLayoutAttributeTrailing relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTrailing multiplier:1.0f constant:-55];
         [self.view addConstraint: constraint28];
         
-        NSLayoutConstraint *constraint29 = [NSLayoutConstraint constraintWithItem:self.hintText attribute:NSLayoutAttributeBottom relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0f constant:450];
+        NSLayoutConstraint *constraint29 = [NSLayoutConstraint constraintWithItem:self.hintText attribute:NSLayoutAttributeBottom relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0f constant:700];
         [self.view addConstraint: constraint29];
         
         
@@ -1351,37 +1354,37 @@ NSInteger intFreeTier;
         NSLayoutConstraint *constraint49 = [NSLayoutConstraint constraintWithItem:self.levelNumber attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.mainBackgroundImage attribute:NSLayoutAttributeLeading multiplier:1.0f constant:61];
         [self.view addConstraint: constraint49];
         
-        NSLayoutConstraint *constraint50 = [NSLayoutConstraint constraintWithItem:self.levelNumber attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0f constant:488];
+        NSLayoutConstraint *constraint50 = [NSLayoutConstraint constraintWithItem:self.levelNumber attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0f constant:775];
         [self.view addConstraint: constraint50];
         
         NSLayoutConstraint *constraint51 = [NSLayoutConstraint constraintWithItem:self.pipeSeparator attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.mainBackgroundImage attribute:NSLayoutAttributeLeading multiplier:1.0f constant:74];
         [self.view addConstraint: constraint51];
         
-        NSLayoutConstraint *constraint52 = [NSLayoutConstraint constraintWithItem:self.pipeSeparator attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0f constant:486];
+        NSLayoutConstraint *constraint52 = [NSLayoutConstraint constraintWithItem:self.pipeSeparator attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0f constant:775];
         [self.view addConstraint: constraint52];
         
         NSLayoutConstraint *constraint53 = [NSLayoutConstraint constraintWithItem:self.roundText attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.mainBackgroundImage attribute:NSLayoutAttributeLeading multiplier:1.0f constant:85];
         [self.view addConstraint: constraint53];
         
-        NSLayoutConstraint *constraint54 = [NSLayoutConstraint constraintWithItem:self.roundText attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0f constant:488];
+        NSLayoutConstraint *constraint54 = [NSLayoutConstraint constraintWithItem:self.roundText attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0f constant:775];
         [self.view addConstraint: constraint54];
         
         NSLayoutConstraint *constraint55 = [NSLayoutConstraint constraintWithItem:self.roundNumber attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.mainBackgroundImage attribute:NSLayoutAttributeLeading multiplier:1.0f constant:145];
         [self.view addConstraint: constraint55];
         
-        NSLayoutConstraint *constraint56 = [NSLayoutConstraint constraintWithItem:self.roundNumber attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0f constant:488];
+        NSLayoutConstraint *constraint56 = [NSLayoutConstraint constraintWithItem:self.roundNumber attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0f constant:775];
         [self.view addConstraint: constraint56];
         
-        NSLayoutConstraint *constraint57 = [NSLayoutConstraint constraintWithItem:self.scoreText attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.mainBackgroundImage attribute:NSLayoutAttributeLeading multiplier:1.0f constant:175];
+        NSLayoutConstraint *constraint57 = [NSLayoutConstraint constraintWithItem:self.scoreText attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.mainBackgroundImage attribute:NSLayoutAttributeLeading multiplier:1.0f constant:275];
         [self.view addConstraint: constraint57];
         
-        NSLayoutConstraint *constraint58 = [NSLayoutConstraint constraintWithItem:self.scoreText attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0f constant:488];
+        NSLayoutConstraint *constraint58 = [NSLayoutConstraint constraintWithItem:self.scoreText attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0f constant:775];
         [self.view addConstraint: constraint58];
         
-        NSLayoutConstraint *constraint59 = [NSLayoutConstraint constraintWithItem:self.scoreNumber attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.mainBackgroundImage attribute:NSLayoutAttributeLeading multiplier:1.0f constant:230];
+        NSLayoutConstraint *constraint59 = [NSLayoutConstraint constraintWithItem:self.scoreNumber attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.mainBackgroundImage attribute:NSLayoutAttributeLeading multiplier:1.0f constant:340];
         [self.view addConstraint: constraint59];
         
-        NSLayoutConstraint *constraint60 = [NSLayoutConstraint constraintWithItem:self.scoreNumber attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0f constant:488];
+        NSLayoutConstraint *constraint60 = [NSLayoutConstraint constraintWithItem:self.scoreNumber attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0f constant:775];
         [self.view addConstraint: constraint60];
         
         NSLayoutConstraint *constraint61 = [NSLayoutConstraint constraintWithItem:self.countOff attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.mainBackgroundImage attribute:NSLayoutAttributeLeading multiplier:1.0f constant:70];

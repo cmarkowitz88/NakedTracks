@@ -46,7 +46,7 @@ NSString *strAlertTitle;
 
 -(void)viewDidAppear:(BOOL)animated
 {
-    [self showAlertBox];
+    //[self showAlertBox];
 }
 
 - (void)viewDidLoad {

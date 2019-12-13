@@ -53,8 +53,8 @@ AVAudioPlayer *avSound;
     
     // ***** REAL STARTING POINT
     //STARTING POINT WITH MAIN MENU SCREEN
-    MainMenuViewController *mainMenuVC = [[MainMenuViewController alloc]init];
-    self.window.rootViewController = mainMenuVC;
+    //MainMenuViewController *mainMenuVC = [[MainMenuViewController alloc]init];
+    //self.window.rootViewController = mainMenuVC;
     
     //IAPViewController *iapVC = [[IAPViewController alloc]init];
     //self.window.rootViewController = iapVC;
@@ -74,8 +74,8 @@ AVAudioPlayer *avSound;
     //self.window.rootViewController  = noConnectionVC;
 
     
-    //GameScreenViewController *gameScreenVC = [[GameScreenViewController alloc]init];
-    //self.window.rootViewController = gameScreenVC;
+    GameScreenViewController *gameScreenVC = [[GameScreenViewController alloc]init];
+    self.window.rootViewController = gameScreenVC;
     
     
         
