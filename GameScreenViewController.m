@@ -973,7 +973,7 @@ NSInteger intFreeTier;
         [self.button3.titleLabel setFont:[UIFont systemFontOfSize:intFontSize1]];
         [self.button4.titleLabel setFont:[UIFont systemFontOfSize:intFontSize1]];
         
-        NSLayoutConstraint *constraint = [NSLayoutConstraint constraintWithItem:self.streakLabel attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.mainBackgroundImage attribute:NSLayoutAttributeLeading multiplier:1.0f constant:270];
+        NSLayoutConstraint *constraint = [NSLayoutConstraint constraintWithItem:self.streakLabel attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.mainBackgroundImage attribute:NSLayoutAttributeLeading multiplier:1.0f constant:266];
         [self.view addConstraint: constraint];
         
         NSLayoutConstraint *constraint1 = [NSLayoutConstraint constraintWithItem:self.streakLabel attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0f constant:296];
@@ -1187,7 +1187,7 @@ NSInteger intFreeTier;
     
     else if ([currentDevice.deviceType isEqualToString:@"eleven,xr"])
     {
-        intFontSize1 = 17;
+        intFontSize1 = 16;
         intFontSize2 = 15;
         
         self.mainBackgroundImage.image = [gameScreenArray objectAtIndex:intSkillLevel];
@@ -1231,13 +1231,13 @@ NSInteger intFreeTier;
         NSLayoutConstraint *constraint8 = [NSLayoutConstraint constraintWithItem:self.hintButton attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0f constant:312];
         [self.view addConstraint: constraint8];
         
-        NSLayoutConstraint *constraint9 = [NSLayoutConstraint constraintWithItem:self.hintButton attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0f constant:220];
+        NSLayoutConstraint *constraint9 = [NSLayoutConstraint constraintWithItem:self.hintButton attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0f constant:200];
         [self.view addConstraint: constraint9];
         
         NSLayoutConstraint *constraint10 = [NSLayoutConstraint constraintWithItem:self.pauseButton attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0f constant:308];
         [self.view addConstraint: constraint10];
         
-        NSLayoutConstraint *constraint11 = [NSLayoutConstraint constraintWithItem:self.pauseButton attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0f constant:150];
+        NSLayoutConstraint *constraint11 = [NSLayoutConstraint constraintWithItem:self.pauseButton attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0f constant:135];
         [self.view addConstraint: constraint11];
         
         NSLayoutConstraint *constraint12 = [NSLayoutConstraint constraintWithItem:self.stopWatch attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0f constant:28];
@@ -1405,13 +1405,13 @@ NSInteger intFreeTier;
         NSLayoutConstraint *constraint66 = [NSLayoutConstraint constraintWithItem:self.yourTimeNumber attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0f constant:620];
         [self.view addConstraint: constraint66];
         
-        NSLayoutConstraint *constraint67 = [NSLayoutConstraint constraintWithItem:self.soundBarStill attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.mainBackgroundImage attribute:NSLayoutAttributeLeading multiplier:1.0f constant:217];
+        NSLayoutConstraint *constraint67 = [NSLayoutConstraint constraintWithItem:self.soundBarStill attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.mainBackgroundImage attribute:NSLayoutAttributeLeading multiplier:1.0f constant:255];
         [self.view addConstraint: constraint67];
         
         //NSLayoutConstraint *constraint68 = [NSLayoutConstraint constraintWithItem:self.soundBarStill attribute:NSLayoutAttributeTrailing relatedBy:NSLayoutRelationEqual toItem:self.mainBackgroundImage attribute:NSLayoutAttributeTrailing multiplier:1.0f constant:50];
         //[self.view addConstraint: constraint68];
         
-        NSLayoutConstraint *constraint69 = [NSLayoutConstraint constraintWithItem:self.soundBarStill attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0f constant:42];
+        NSLayoutConstraint *constraint69 = [NSLayoutConstraint constraintWithItem:self.soundBarStill attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0f constant:47];
         [self.view addConstraint: constraint69];
 
     }
@@ -2109,7 +2109,7 @@ NSInteger intFreeTier;
             gmReviewCntrl.data = gameReviewList;
             gmReviewCntrl.intRound = intLevel;
             gmReviewCntrl.modalPresentationStyle = UIModalPresentationFullScreen;
-            gmReviewCntrl.modalTransitionStyle = UIModalTransitionStylePartialCurl;
+            gmReviewCntrl.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
             [self presentViewController:gmReviewCntrl animated:YES completion:Nil ];
             
             numCorrect = 0;

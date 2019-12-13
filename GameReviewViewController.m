@@ -751,6 +751,201 @@ const NSInteger BONUS_POINTS_MULTIPLIER = 100;
         NSLayoutConstraint *constraint61 = [NSLayoutConstraint constraintWithItem:self.RoundIndicator attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0f constant:453];
         [self.view addConstraint: constraint61];
     }
+    
+    if ([currentDevice.deviceType isEqualToString:@"eleven,xr"])
+       {
+           self.bkgdImageView.image = [UIImage imageNamed:@"LevelReview_BG_Orange copy.png"];
+           self.RoundIndicator.preferredMaxLayoutWidth = 336;
+           
+           NSLayoutConstraint *constraint = [NSLayoutConstraint constraintWithItem:self.lblLevelReview attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0f constant:120];
+           [self.view addConstraint: constraint];
+           
+           NSLayoutConstraint *constraint1 = [NSLayoutConstraint constraintWithItem:self.lblLevelReview attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0f constant:40];
+           [self.view addConstraint: constraint1];
+           
+           
+           NSLayoutConstraint *constraint2 = [NSLayoutConstraint constraintWithItem:self.lblStatusHeader attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0f constant:30];
+           [self.view addConstraint: constraint2];
+           
+           NSLayoutConstraint *constraint3 = [NSLayoutConstraint constraintWithItem:self.lblStatusHeader attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0f constant:90];
+           [self.view addConstraint: constraint3];
+           
+           NSLayoutConstraint *constraint4 = [NSLayoutConstraint constraintWithItem:self.lblAnswerHeader attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0f constant:125];
+           [self.view addConstraint: constraint4];
+           
+           NSLayoutConstraint *constraint5 = [NSLayoutConstraint constraintWithItem:self.lblAnswerHeader attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0f constant:90];
+           [self.view addConstraint: constraint5];
+           
+           NSLayoutConstraint *constraint6 = [NSLayoutConstraint constraintWithItem:self.lblStatus1 attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0f constant:30];
+           [self.view addConstraint: constraint6];
+           
+           NSLayoutConstraint *constraint7 = [NSLayoutConstraint constraintWithItem:self.lblStatus1 attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0f constant:125];
+           [self.view addConstraint: constraint7];
+           
+           NSLayoutConstraint *constraint8 = [NSLayoutConstraint constraintWithItem:self.lblAnswer1 attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0f constant:125];
+           [self.view addConstraint: constraint8];
+           
+           NSLayoutConstraint *constraint9 = [NSLayoutConstraint constraintWithItem:self.lblAnswer1 attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0f constant:125];
+           [self.view addConstraint: constraint9];
+           
+           NSLayoutConstraint *constraint10 = [NSLayoutConstraint constraintWithItem:self.lblAnswer1 attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0f constant:240];
+           [self.view addConstraint: constraint10];
+           
+           NSLayoutConstraint *constraint11 = [NSLayoutConstraint constraintWithItem:self.lblStatus2 attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0f constant:30];
+           [self.view addConstraint: constraint11];
+           
+           NSLayoutConstraint *constraint12 = [NSLayoutConstraint constraintWithItem:self.lblStatus2 attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0f constant:155];
+           [self.view addConstraint: constraint12];
+           
+           NSLayoutConstraint *constraint13 = [NSLayoutConstraint constraintWithItem:self.lblAnswer2 attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0f constant:125];
+           [self.view addConstraint: constraint13];
+           
+           NSLayoutConstraint *constraint14 = [NSLayoutConstraint constraintWithItem:self.lblAnswer2 attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0f constant:155];
+           [self.view addConstraint: constraint14];
+           
+           NSLayoutConstraint *constraint15 = [NSLayoutConstraint constraintWithItem:self.lblAnswer2 attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0f constant:240];
+           [self.view addConstraint: constraint15];
+           
+           NSLayoutConstraint *constraint16 = [NSLayoutConstraint constraintWithItem:self.lblStatus3 attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0f constant:30];
+           [self.view addConstraint: constraint16];
+           
+           NSLayoutConstraint *constraint17 = [NSLayoutConstraint constraintWithItem:self.lblStatus3 attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0f constant:185];
+           [self.view addConstraint: constraint17];
+           
+           NSLayoutConstraint *constraint18 = [NSLayoutConstraint constraintWithItem:self.lblAnswer3 attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0f constant:125];
+           [self.view addConstraint: constraint18];
+           
+           NSLayoutConstraint *constraint19 = [NSLayoutConstraint constraintWithItem:self.lblAnswer3 attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0f constant:185];
+           [self.view addConstraint: constraint19];
+           
+           NSLayoutConstraint *constraint20 = [NSLayoutConstraint constraintWithItem:self.lblAnswer3 attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0f constant:240];
+           [self.view addConstraint: constraint20];
+           
+           NSLayoutConstraint *constraint21 = [NSLayoutConstraint constraintWithItem:self.lblStatus4 attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0f constant:30];
+           [self.view addConstraint: constraint21];
+           
+           NSLayoutConstraint *constraint22 = [NSLayoutConstraint constraintWithItem:self.lblStatus4 attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0f constant:215];
+           [self.view addConstraint: constraint22];
+           
+           NSLayoutConstraint *constraint23 = [NSLayoutConstraint constraintWithItem:self.lblAnswer4 attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0f constant:125];
+           [self.view addConstraint: constraint23];
+           
+           NSLayoutConstraint *constraint24 = [NSLayoutConstraint constraintWithItem:self.lblAnswer4 attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0f constant:215];
+           [self.view addConstraint: constraint24];
+           
+           NSLayoutConstraint *constraint25 = [NSLayoutConstraint constraintWithItem:self.lblAnswer4 attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0f constant:240];
+           [self.view addConstraint: constraint25];
+           
+           NSLayoutConstraint *constraint26 = [NSLayoutConstraint constraintWithItem:self.lblStatus5 attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0f constant:30];
+           [self.view addConstraint: constraint26];
+           
+           NSLayoutConstraint *constraint27 = [NSLayoutConstraint constraintWithItem:self.lblStatus5 attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0f constant:245];
+           [self.view addConstraint: constraint27];
+           
+           NSLayoutConstraint *constraint28 = [NSLayoutConstraint constraintWithItem:self.lblAnswer5 attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0f constant:125];
+           [self.view addConstraint: constraint28];
+           
+           NSLayoutConstraint *constraint29 = [NSLayoutConstraint constraintWithItem:self.lblAnswer5 attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0f constant:245];
+           [self.view addConstraint: constraint29];
+           
+           NSLayoutConstraint *constraint30 = [NSLayoutConstraint constraintWithItem:self.lblAnswer5 attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0f constant:240];
+           [self.view addConstraint: constraint30];
+           
+           NSLayoutConstraint *constraint31 = [NSLayoutConstraint constraintWithItem:self.lblStatus6 attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0f constant:30];
+           [self.view addConstraint: constraint31];
+           
+           NSLayoutConstraint *constraint32 = [NSLayoutConstraint constraintWithItem:self.lblStatus6 attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0f constant:280];
+           [self.view addConstraint: constraint32];
+
+           NSLayoutConstraint *constraint33 = [NSLayoutConstraint constraintWithItem:self.lblAnswer6 attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0f constant:125];
+           [self.view addConstraint: constraint33];
+           
+           NSLayoutConstraint *constraint34 = [NSLayoutConstraint constraintWithItem:self.lblAnswer6 attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0f constant:280];
+           [self.view addConstraint: constraint34];
+           
+           NSLayoutConstraint *constraint35 = [NSLayoutConstraint constraintWithItem:self.lblAnswer6 attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0f constant:240];
+           [self.view addConstraint: constraint35];
+           
+           NSLayoutConstraint *constraint36 = [NSLayoutConstraint constraintWithItem:self.lblStatus7 attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0f constant:30];
+           [self.view addConstraint: constraint36];
+           
+           NSLayoutConstraint *constraint37 = [NSLayoutConstraint constraintWithItem:self.lblStatus7 attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0f constant:310];
+           [self.view addConstraint: constraint37];
+           
+           NSLayoutConstraint *constraint38 = [NSLayoutConstraint constraintWithItem:self.lblAnswer7 attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0f constant:125];
+           [self.view addConstraint: constraint38];
+           
+           NSLayoutConstraint *constraint39 = [NSLayoutConstraint constraintWithItem:self.lblAnswer7 attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0f constant:310];
+           [self.view addConstraint: constraint39];
+           
+           NSLayoutConstraint *constraint40 = [NSLayoutConstraint constraintWithItem:self.lblAnswer7 attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0f constant:240];
+           [self.view addConstraint: constraint40];
+           
+           NSLayoutConstraint *constraint41 = [NSLayoutConstraint constraintWithItem:self.lblStatus8 attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0f constant:30];
+           [self.view addConstraint: constraint41];
+           
+           NSLayoutConstraint *constraint42 = [NSLayoutConstraint constraintWithItem:self.lblStatus8 attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0f constant:340];
+           [self.view addConstraint: constraint42];
+           
+           NSLayoutConstraint *constraint43 = [NSLayoutConstraint constraintWithItem:self.lblAnswer8 attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0f constant:125];
+           [self.view addConstraint: constraint43];
+           
+           NSLayoutConstraint *constraint44 = [NSLayoutConstraint constraintWithItem:self.lblAnswer8 attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0f constant:340];
+           [self.view addConstraint: constraint44];
+           
+           NSLayoutConstraint *constraint45 = [NSLayoutConstraint constraintWithItem:self.lblAnswer8 attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0f constant:240];
+           [self.view addConstraint: constraint45];
+           
+           
+           NSLayoutConstraint *constraint46 = [NSLayoutConstraint constraintWithItem:self.lblStatus9 attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0f constant:30];
+           [self.view addConstraint: constraint46];
+           
+           NSLayoutConstraint *constraint47 = [NSLayoutConstraint constraintWithItem:self.lblStatus9 attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0f constant:370];
+           [self.view addConstraint: constraint47];
+           
+           NSLayoutConstraint *constraint48 = [NSLayoutConstraint constraintWithItem:self.lblAnswer9 attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0f constant:125];
+           [self.view addConstraint: constraint48];
+           
+           NSLayoutConstraint *constraint49 = [NSLayoutConstraint constraintWithItem:self.lblAnswer9 attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0f constant:370];
+           [self.view addConstraint: constraint49];
+           
+           NSLayoutConstraint *constraint50 = [NSLayoutConstraint constraintWithItem:self.lblAnswer9 attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0f constant:240];
+           [self.view addConstraint: constraint50];
+           
+           NSLayoutConstraint *constraint51 = [NSLayoutConstraint constraintWithItem:self.lblStatus10 attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0f constant:30];
+           [self.view addConstraint: constraint51];
+           
+           NSLayoutConstraint *constraint52 = [NSLayoutConstraint constraintWithItem:self.lblStatus10 attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0f constant:400];
+           [self.view addConstraint: constraint52];
+           
+           NSLayoutConstraint *constraint53 = [NSLayoutConstraint constraintWithItem:self.lblAnswer10 attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0f constant:125];
+           [self.view addConstraint: constraint53];
+           
+           NSLayoutConstraint *constraint54 = [NSLayoutConstraint constraintWithItem:self.lblAnswer10 attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0f constant:400];
+           [self.view addConstraint: constraint54];
+           
+           NSLayoutConstraint *constraint55 = [NSLayoutConstraint constraintWithItem:self.lblAnswer10 attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0f constant:240];
+           [self.view addConstraint: constraint55];
+
+           
+           NSLayoutConstraint *constraint56 = [NSLayoutConstraint constraintWithItem:self.lblBonusPointsText attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0f constant:120];
+           [self.view addConstraint: constraint56];
+           
+           NSLayoutConstraint *constraint57 = [NSLayoutConstraint constraintWithItem:self.lblBonusPointsText attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0f constant:449];
+           [self.view addConstraint: constraint57];
+           
+           NSLayoutConstraint *constraint58 = [NSLayoutConstraint constraintWithItem:self.lblBonusPointsNumber attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0f constant:155];
+           [self.view addConstraint: constraint58];
+           
+           NSLayoutConstraint *constraint59 = [NSLayoutConstraint constraintWithItem:self.lblBonusPointsNumber attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0f constant:475];
+           [self.view addConstraint: constraint59];
+           
+           NSLayoutConstraint *constraint60 = [NSLayoutConstraint constraintWithItem:self.RoundIndicator attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0f constant:30];
+           [self.view addConstraint: constraint60];
+           
+           NSLayoutConstraint *constraint61 = [NSLayoutConstraint constraintWithItem:self.RoundIndicator attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0f constant:530];
+           [self.view addConstraint: constraint61];
+       }
 
 
 }
