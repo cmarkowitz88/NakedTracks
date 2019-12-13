@@ -48,7 +48,6 @@
 		29790EBF1D9B5C8E008FF122 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29790EB51D9B5C8E008FF122 /* LaunchScreen.xib */; };
 		29790EC01D9B5C8E008FF122 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29790EB71D9B5C8E008FF122 /* Main.storyboard */; };
 		29790EC11D9B5C8E008FF122 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29790EB91D9B5C8E008FF122 /* Images.xcassets */; };
-		29790EC21D9B5C8E008FF122 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 29790EBA1D9B5C8E008FF122 /* Info.plist */; };
 		29790EC31D9B5C8E008FF122 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29790EBB1D9B5C8E008FF122 /* main.m */; };
 		29790EC41D9B5C8E008FF122 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29790EBD1D9B5C8E008FF122 /* ViewController.m */; };
 		298645331F28276C0031A74A /* IAPDescription.plist in Resources */ = {isa = PBXBuildFile; fileRef = 298645321F28276C0031A74A /* IAPDescription.plist */; };
@@ -700,6 +699,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -733,7 +733,6 @@
 				290A7DDD1E96D2FF00E48880 /* LaunchViewController.xib in Resources */,
 				29C2AD921EE21817004C95FB /* Sound Bars Blue High Small.png in Resources */,
 				298796D31EFD96F400AF893A /* SoundBars_Yellow_High_Small.png in Resources */,
-				29790EC21D9B5C8E008FF122 /* Info.plist in Resources */,
 				2944359A1E9DB692000FB67F /* Hint_Full_Orange copy.png in Resources */,
 				29B68E281F6CC210000A5827 /* LogoLaunchSmaller.png in Resources */,
 				290A7DD81E95CC9E00E48880 /* NakedTracksText.json in Resources */,

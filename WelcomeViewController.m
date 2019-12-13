@@ -184,6 +184,27 @@ NSString *strAlertTitle;
         
         [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.lblLevel attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0f constant:40]];
     }
+    
+    else if ([currentDevice.deviceType isEqualToString:@"eleven,xr"])
+    {
+        [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.lblLevel attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0 constant:165.0]];
+              
+        [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.lblLevel attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0 constant:205.0]];
+              
+        [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.lblLevel attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0f constant:160]];
+              
+        [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.lblLevel attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0f constant:40]];
+        
+        [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.btnLevel attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0 constant:150.0]];
+        
+        [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.btnLevel attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0 constant:280.0]];
+        
+        [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.btnLevel attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0f constant:200]];
+        
+        [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.btnLevel attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0f constant:45]];
+        
+      
+    }
 
 }
 

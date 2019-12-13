@@ -39,6 +39,10 @@
     {
         self.deviceType = @"6,7,zoom";
     }
+    else if (self.screenWidth == 414 && self.screenHeight == 896)
+    {
+        self.deviceType = @"eleven,xr";
+    }
     
    
 }
