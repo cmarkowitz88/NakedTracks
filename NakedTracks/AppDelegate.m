@@ -41,6 +41,7 @@ AVAudioPlayer *avSound;
     // Set UIViewControllerBasedStatusBarAppearance to YES in the plist AND
     [[UIApplication sharedApplication] setStatusBarStyle: UIStatusBarStyleLightContent];
     // END status bar
+    //New Comment
     
     //STARTING POINT WITH WELCOME SCREEN
     //WelcomeViewController *welcomeVC = [[WelcomeViewController alloc]init];

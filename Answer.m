@@ -56,7 +56,7 @@
 
 -(NSMutableArray *)FetchAnswersSync
 {
-    NSMutableURLRequest *urlRequest = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:@"http://ec2-52-23-158-122.compute-1.amazonaws.com/api/answers?level=1"]];
+    NSMutableURLRequest *urlRequest = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:@"http://ec2-54-173-1-47.compute-1.amazonaws.com/api/answers?level=1"]];
     NSURLResponse *response = nil;
     NSError *error = nil;
     NSMutableArray *answerArray = [[NSMutableArray alloc]init];

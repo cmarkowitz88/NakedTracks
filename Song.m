@@ -106,7 +106,7 @@
     NSURLSessionConfiguration *config = [NSURLSessionConfiguration defaultSessionConfiguration];
     _session = [NSURLSession sessionWithConfiguration:config delegate:nil delegateQueue:nil];
     
-    NSString *requestString = @"http://ec2-52-23-158-122.compute-1.amazonaws.com/api/songs?level=1";
+    NSString *requestString = @"http://ec2-54-173-1-47.compute-1.amazonaws.com/api/songs?level=1";
     NSURL *url = [NSURL URLWithString:requestString];
     
     NSURLRequest *req = [NSURLRequest requestWithURL:url];
@@ -151,7 +151,7 @@
 
 - (void)fetchSongsASynch
 {
-    NSString *requestString = @"http://ec2-52-23-158-122.compute-1.amazonaws.com/api/songs?level=1";
+    NSString *requestString = @"http://ec2-54-173-1-47.compute-1.amazonaws.com/api/songs?level=1";
     NSURL *url = [NSURL URLWithString:requestString];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     
@@ -198,17 +198,17 @@
     
     if (fullVersion == false)
     {
-        BaseUrl = [NSMutableString stringWithString:@"http://ec2-52-23-158-122.compute-1.amazonaws.com/api/songs?isFreeVersion=true"];
+        BaseUrl = [NSMutableString stringWithString:@"http://ec2-54-173-1-47.compute-1.amazonaws.com/api/songs?isFreeVersion=true"];
     }
     else
     {
-        BaseUrl = [NSMutableString stringWithString:@"http://ec2-52-23-158-122.compute-1.amazonaws.com/api/songs?level="];
+        BaseUrl = [NSMutableString stringWithString:@"http://ec2-54-173-1-47.compute-1.amazonaws.com/api/songs?level="];
         NSString *strSkillLevel = [NSString stringWithFormat:@"%i",skillLevel];
         [BaseUrl appendString:strSkillLevel];
     }
     
     
-    //NSURLRequest *urlRequest = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://ec2-52-23-158-122.compute-1.amazonaws.com/api/songs?level=1"]];
+    //NSURLRequest *urlRequest = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://ec2-54-173-1-47.compute-1.amazonaws.com/api/songs?level=1"]];
     NSMutableURLRequest *urlRequest = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:BaseUrl]];
     urlRequest.timeoutInterval = 10.0;
     NSURLResponse *response = nil;

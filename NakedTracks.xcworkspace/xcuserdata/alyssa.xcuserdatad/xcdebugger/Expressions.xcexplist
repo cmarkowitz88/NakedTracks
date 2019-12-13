@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[Song fetchSongsSynch:]:Song.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[NakedTracksViewController displaySong:]:NakedTracksViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[NakedTracksViewController downLoadSongs]:NakedTracksViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[NakedTracksViewController getRandomAnswer:]:NakedTracksViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "selectedAnswers">
+            </PersistentString>
+            <PersistentString
+               value = "answerList">
+            </PersistentString>
+            <PersistentString
+               value = "currentAnswer">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[NakedTracksViewController checkAnswer:]:NakedTracksViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "randomizedSongList">
+            </PersistentString>
+            <PersistentString
+               value = "songList">
+            </PersistentString>
+            <PersistentString
+               value = "answerList">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__42-[NakedTracksViewController downLoadSongs]_block_invoke:NakedTracksViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "intSongCount">
+            </PersistentString>
+            <PersistentString
+               value = "downloadRequest.key">
+            </PersistentString>
+            <PersistentString
+               value = "globalSongPointer">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__57-[AppDelegate application:didFinishLaunchingWithOptions:]_block_invoke:AppDelegate.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[NakedTracksViewController getNextSong]:NakedTracksViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "globalSongPointer">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[NakedTracksViewController downLoadSong:]:NakedTracksViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "__18-[Song fetchSongs]_block_invoke:Song.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "jsonArray">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[Song FetchSongsSynch]:Song.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[NakedTracksViewController checkGameLevel:]:NakedTracksViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "intSkillLevelPLATINUM">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[NakedTracksViewController initializeSongList]:NakedTracksViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[NakedTracksViewController ShowHint:]:NakedTracksViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "inSong">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[Answer getAnswers]:Answer.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[AWSEndpoint initWithRegion:service:useUnsafeURL:]:AWSService.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[NakedTracksViewController initWithNibName:bundle:]:NakedTracksViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "songList">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[Song fetchSongsSynch]:Song.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[Song FetchSongsASynch]:Song.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[Song fetchSongs]:Song.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "jsonObject">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[NakedTracksViewController randomizeSongList]:NakedTracksViewController.m">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

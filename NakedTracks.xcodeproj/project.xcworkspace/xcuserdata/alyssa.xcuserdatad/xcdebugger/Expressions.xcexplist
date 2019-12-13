@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[Song getSongs]:Song.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[NakedTracksViewController countdownTimer]:NakedTracksViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[NakedTracksViewController getRandomAnswer:]:NakedTracksViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "selectedAnswers">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[NakedTracksViewController getNextSong]:NakedTracksViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[songList count]">
+            </PersistentString>
+            <PersistentString
+               value = "[selectedSongs count]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[NakedTracksViewController updateCounter:]:NakedTracksViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.countdownLabel.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[NakedTracksViewController displaySong:]:NakedTracksViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[NakedTracksViewController checkAnswer:]:NakedTracksViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "title">
+            </PersistentString>
+            <PersistentString
+               value = "correctAnswer">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

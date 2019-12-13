@@ -1042,8 +1042,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "e88172d0-6fec-4d74-942a-00a97bcc8ecb";
-				PROVISIONING_PROFILE_SPECIFIER = NakedTracksDev;
+				PROVISIONING_PROFILE = "e5e59bdc-7591-4bda-a594-c29dc2c7aae3";
+				PROVISIONING_PROFILE_SPECIFIER = NakedTracks2019Cert;
 			};
 			name = Debug;
 		};
@@ -1059,8 +1059,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "e88172d0-6fec-4d74-942a-00a97bcc8ecb";
-				PROVISIONING_PROFILE_SPECIFIER = NakedTracksDev;
+				PROVISIONING_PROFILE = "e5e59bdc-7591-4bda-a594-c29dc2c7aae3";
+				PROVISIONING_PROFILE_SPECIFIER = NakedTracks2019Cert;
 			};
 			name = Release;
 		};
