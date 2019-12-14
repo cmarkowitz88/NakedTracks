@@ -1214,7 +1214,7 @@ NSInteger intFreeTier;
         NSLayoutConstraint *constraint1 = [NSLayoutConstraint constraintWithItem:self.streakLabel attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0f constant:425];
         [self.view addConstraint: constraint1];
         
-        NSLayoutConstraint *constraint2 = [NSLayoutConstraint constraintWithItem:self.streakLabelText attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.mainBackgroundImage attribute:NSLayoutAttributeLeading multiplier:1.0f constant:302];
+        NSLayoutConstraint *constraint2 = [NSLayoutConstraint constraintWithItem:self.streakLabelText attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.mainBackgroundImage attribute:NSLayoutAttributeLeading multiplier:1.0f constant:298];
         [self.view addConstraint: constraint2];
         
         NSLayoutConstraint *constraint3 = [NSLayoutConstraint constraintWithItem:self.streakLabelText attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0f constant:394];
@@ -1284,7 +1284,7 @@ NSInteger intFreeTier;
         NSLayoutConstraint *constraint24 = [NSLayoutConstraint constraintWithItem:self.statusLabel attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.mainBackgroundImage attribute:NSLayoutAttributeLeading multiplier:1.0f constant:190];
         [self.view addConstraint: constraint24];
         
-        NSLayoutConstraint *constraint25 = [NSLayoutConstraint constraintWithItem:self.statusLabel attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0f constant:490];
+        NSLayoutConstraint *constraint25 = [NSLayoutConstraint constraintWithItem:self.statusLabel attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0f constant:492];
         [self.view addConstraint: constraint25];
         
         NSLayoutConstraint *constraint26 = [NSLayoutConstraint constraintWithItem:self.hintText attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.mainBackgroundImage attribute:NSLayoutAttributeLeading multiplier:1.0f constant:120];
