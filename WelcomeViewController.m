@@ -187,7 +187,7 @@ NSString *strAlertTitle;
     
     else if ([currentDevice.deviceType isEqualToString:@"eleven,xr"])
     {
-        [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.lblLevel attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0 constant:150.0]];
+        [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.lblLevel attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0 constant:120.0]];
               
         [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.lblLevel attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0 constant:205.0]];
               
@@ -195,7 +195,7 @@ NSString *strAlertTitle;
               
         [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.lblLevel attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0f constant:40]];
         
-        [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.btnLevel attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0 constant:110.0]];
+        [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.btnLevel attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0 constant:85.0]];
         
         [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.btnLevel attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0 constant:280.0]];
         
