@@ -67,15 +67,15 @@ AVAudioPlayer *avSound;
     
     //STARTING POINT
     
-    //GameReviewViewController *gameReviewVC = [[GameReviewViewController alloc]init];
-    //self.window.rootViewController = gameReviewVC;
+    GameReviewViewController *gameReviewVC = [[GameReviewViewController alloc]init];
+    self.window.rootViewController = gameReviewVC;
     
     //NoConnectionViewController *noConnectionVC = [[NoConnectionViewController alloc]init];
     //self.window.rootViewController  = noConnectionVC;
 
     
-    GameScreenViewController *gameScreenVC = [[GameScreenViewController alloc]init];
-    self.window.rootViewController = gameScreenVC;
+    //GameScreenViewController *gameScreenVC = [[GameScreenViewController alloc]init];
+    //self.window.rootViewController = gameScreenVC;
     
     
         
