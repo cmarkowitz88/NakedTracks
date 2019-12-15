@@ -113,6 +113,28 @@
         [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.lblMessage attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeWidth multiplier:1.0 constant:290.0]];
         
     }
+    
+    else if ([currentDevice.deviceType isEqualToString:@"eleven,xr"])
+       {
+           [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.retryBtn attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0 constant:95.0]];
+           
+           [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.retryBtn attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0 constant:310.0]];
+           
+           [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.retryBtn attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0f constant:190]];
+           
+           [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.retryBtn attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0f constant:40]];
+           
+           [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.lblNoConnection attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0 constant:95.0]];
+           
+           [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.lblNoConnection attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0 constant:170.0]];
+           
+           [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.lblMessage attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0 constant:45.0]];
+           
+           [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.lblMessage attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0 constant:230.0]];
+           
+           [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.lblMessage attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeWidth multiplier:1.0 constant:290.0]];
+           
+       }
 
 }
 

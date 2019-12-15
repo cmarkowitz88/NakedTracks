@@ -99,6 +99,24 @@
         [self.view addConstraint: constraint29];
         
     }
+    
+    else if ([currentDevice.deviceType isEqualToString:@"eleven,xr"])
+       {
+           [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.aboutLabel attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0 constant:88.0]];
+           
+           [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.aboutLabel attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0 constant:57.0]];
+           
+           [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.textViewAbout attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0 constant:20.0]];
+           
+           [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.textViewAbout attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0 constant:95.0]];
+           
+           NSLayoutConstraint *constraint28 = [NSLayoutConstraint constraintWithItem:self.textViewAbout attribute:NSLayoutAttributeTrailing relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTrailing multiplier:1.0f constant:-25];
+           [self.view addConstraint: constraint28];
+           
+           NSLayoutConstraint *constraint29 = [NSLayoutConstraint constraintWithItem:self.textViewAbout attribute:NSLayoutAttributeBottom relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0f constant:690];
+           [self.view addConstraint: constraint29];
+           
+       }
 
 }
 
