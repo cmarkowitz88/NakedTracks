@@ -180,6 +180,43 @@
 
     }
     
+    else if ([currentDevice.deviceType isEqualToString:@"eleven,xr"])
+    {
+        self.textLabel.preferredMaxLayoutWidth = 279;
+        self.imgLogo.image = [UIImage imageNamed:@"LogoLaunchSmall.png"];
+        
+        
+        [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.congratsLabel attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0 constant:85.0]];
+        
+        [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.congratsLabel attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0 constant:50.0]];
+        
+        [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.textLabel attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0 constant:47.0]];
+        
+        [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.textLabel attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0 constant:420.0]];
+        
+        
+        [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.playAgainBtn attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0 constant:495.0]];
+        
+        [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.playAgainBtn attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0 constant:75.0]];
+        
+        [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.playAgainBtn attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0f constant:220]];
+        
+        [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.playAgainBtn attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0f constant:45]];
+        
+        [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.imgLogo attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0 constant:90.0]];
+        
+        [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.imgLogo attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0 constant:120.0]];
+        
+        [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.lblScoreText attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0 constant:140.0]];
+        
+        [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.lblScoreText attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0 constant:280.0]];
+        
+        [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.lblScoreNumber attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0 constant:99.0]];
+        
+        [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.lblScoreNumber attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0 constant:315.0]];
+
+    }
+    
 }
 
 - (void)didReceiveMemoryWarning {

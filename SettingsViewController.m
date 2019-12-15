@@ -94,14 +94,6 @@
         
         [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.helpBtn attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0f constant:45]];
         
-//        [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.inAppPurchaseBtn attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0 constant:75.0]];
-//        
-//        [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.inAppPurchaseBtn attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0 constant:330.0]];
-//        
-//        [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.inAppPurchaseBtn attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0f constant:220]];
-//        
-//        [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.inAppPurchaseBtn attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0f constant:45]];
-        
         [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.logoImage attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0 constant:115.0]];
         
         [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.logoImage attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0 constant:480.0]];
@@ -137,15 +129,7 @@
         [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.helpBtn attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0f constant:220]];
         
         [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.helpBtn attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0f constant:45]];
-        
-//        [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.inAppPurchaseBtn attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0 constant:95.0]];
-//        
-//        [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.inAppPurchaseBtn attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0 constant:330.0]];
-//        
-//        [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.inAppPurchaseBtn attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0f constant:220]];
-//        
-//        [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.inAppPurchaseBtn attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0f constant:60]];
-        
+      
         [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.logoImage attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0 constant:130.0]];
         
         [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.logoImage attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0 constant:480.0]];
@@ -171,10 +155,6 @@
         
         [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.informationLabel attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0 constant:80.0]];
         
-        //[self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.informationLabel attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeWidth multiplier:1.0 constant:150.0]];
-        
-        //[self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.informationLabel attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationGreaterThanOrEqual toItem:self.view attribute:NSLayoutAttributeHeight multiplier:1.0 constant:20.0]];
-        
         [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.resetBtn attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0 constant:70.0]];
         
         [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.resetBtn attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0 constant:135.0]];
@@ -191,19 +171,48 @@
         
         [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.helpBtn attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0f constant:40]];
         
-//        [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.inAppPurchaseBtn attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0 constant:70.0]];
-//        
-//        [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.inAppPurchaseBtn attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0 constant:285.0]];
-//        
-//        [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.inAppPurchaseBtn attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0f constant:190]];
-//        
-//        [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.inAppPurchaseBtn attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0f constant:40]];
-        
         [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.logoImage attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0 constant:90.0]];
         
         [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.logoImage attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0 constant:380.0]];
+    }
+    
+    else if ([currentDevice.deviceType isEqualToString:@"eleven,xr"])
+    {
+        self.bkgdImage.image = [UIImage imageNamed:@"About_BG_copy.png"];
+        self.logoImage.image = [UIImage imageNamed:@"cam1000-02_Logo_Lighter copy 2_smaller.png"];
+        
+        self.informationLabel.numberOfLines = 0;
+        self.informationLabel.lineBreakMode = NSLineBreakByWordWrapping;
+        self.informationLabel.preferredMaxLayoutWidth = 400;
         
         
+        [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.headerLabel attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0 constant:136.0]];
+        
+        [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.headerLabel attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0 constant:53.0]];
+        
+        [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.informationLabel attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0 constant:20.0]];
+        
+        [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.informationLabel attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0 constant:110.0]];
+        
+        [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.resetBtn attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0 constant:90.0]];
+        
+        [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.resetBtn attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0 constant:220.0]];
+        
+        [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.resetBtn attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0f constant:190]];
+        
+        [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.resetBtn attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0f constant:40]];
+        
+        [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.helpBtn attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0 constant:90.0]];
+        
+        [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.helpBtn attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0 constant:300.0]];
+        
+        [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.helpBtn attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0f constant:190]];
+        
+        [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.helpBtn attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0f constant:40]];
+        
+        [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.logoImage attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0 constant:110.0]];
+        
+        [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.logoImage attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0 constant:450.0]];
     }
 
 

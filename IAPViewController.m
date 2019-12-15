@@ -124,6 +124,7 @@ bool blnShowFullScreen;
     
     self.descriptionLabel.lineBreakMode = NSLineBreakByWordWrapping;
     self.descriptionLabel.adjustsFontSizeToFitWidth = NO;
+   
     
     self.iapProductName.numberOfLines = 0;
     self.iapProductName.lineBreakMode = NSLineBreakByWordWrapping;
@@ -221,8 +222,6 @@ bool blnShowFullScreen;
         [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.cancelButton attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:Nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0 constant:220.0]];
         
         [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.cancelButton attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:Nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0 constant:50.0]];
-        
-        
     }
     
     else if([currentDevice.deviceType isEqualToString:@"plus"])
@@ -418,8 +417,120 @@ bool blnShowFullScreen;
             
             //[self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.cancelButton attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:Nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0 constant:50.0]];
         }
-
+    }
+    
+    else if([currentDevice.deviceType isEqualToString:@"eleven,xr"])
+    {
+        //self.descriptionLabel.preferredMaxLayoutWidth  = 400;
+        self.logoImage.image = [UIImage imageNamed:@"LogoLaunchSmaller.png"];
         
+        [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.bkgdImage attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0 constant:0.0]];
+        
+        [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.bkgdImage attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0 constant:0.0]];
+        
+        [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.bkgdImage attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:Nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0 constant:screenWidth]];
+        
+        [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.bkgdImage attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:Nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0 constant:screenHeight]];
+        
+    if (blnShowFullScreen) // Selected Purchase Full Version from the Welcome Screen
+        {
+            [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.logoImage attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0 constant:120.0]];
+            
+            [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.logoImage attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0 constant:30.0]];
+            
+            [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.restoreButton attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0 constant:90.0]];
+            
+            [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.restoreButton attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0 constant:510.0]];
+            
+            [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.restoreButton attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:Nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0 constant:200.0]];
+            
+            [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.restoreButton attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:Nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0 constant:50.0]];
+            
+            [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.iapProductName attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0 constant:20.0]];
+            
+            [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.iapProductName attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0 constant:130.0]];
+            
+            [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.priceLabel attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0 constant:20.0]];
+            
+            [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.priceLabel attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0 constant:160.0]];
+            
+            [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.descriptionLabel attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0 constant:20.0]];
+            
+            [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.descriptionLabel attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0 constant:210.0]];
+            
+            [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.descriptionLabel attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:Nil attribute:NSLayoutAttributeWidth multiplier:1.0 constant:300.0]];
+            
+            [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.buyButton attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0 constant:90.0]];
+            
+            [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.buyButton attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0 constant:360.0]];
+            
+            [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.buyButton attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:Nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0 constant:200.0]];
+            
+            [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.buyButton attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:Nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0 constant:50.0]];
+            
+            [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.cancelButton attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0 constant:90.0]];
+            
+            [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.cancelButton attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0 constant:435.0]];
+            
+            [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.cancelButton attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:Nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0 constant:200.0]];
+            
+            [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.cancelButton attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:Nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0 constant:50.0]];
+            
+            self.headerLabel.hidden = true;
+        }
+        else // Selected Purchase Full Version from Game Play screen
+        {
+            NSInteger infFontSize1 = 16;
+            
+            [[self iapProductName] setFont:[UIFont systemFontOfSize:infFontSize1]];
+
+            
+            [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.logoImage attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0 constant:120.0]];
+            
+            [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.logoImage attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0 constant:115.0]];
+            
+            [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.headerLabel attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0 constant:110.0]];
+            
+            [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.headerLabel attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0 constant:55.0]];
+            
+            [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.iapProductName attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0 constant:15.0]];
+            
+            [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.iapProductName attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0 constant:220.0]];
+            
+            [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.priceLabel attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0 constant:15.0]];
+            
+            [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.priceLabel attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0 constant:250.0]];
+            
+            [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.descriptionLabel attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0 constant:15.0]];
+            
+            [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.descriptionLabel attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0 constant:285.0]];
+            
+            [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.descriptionLabel attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:Nil attribute:NSLayoutAttributeWidth multiplier:1.0 constant:300.0]];
+            
+            [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.buyButton attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0 constant:88.0]];
+            
+            [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.buyButton attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0 constant:450.0]];
+            
+            [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.buyButton attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:Nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0 constant:200.0]];
+            
+            [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.buyButton attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:Nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0 constant:40.0]];
+            
+            [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.restoreButton attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0 constant:88.0]];
+            
+            [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.restoreButton attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0 constant:520.0]];
+            
+            [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.restoreButton attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:Nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0 constant:200.0]];
+            
+            [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.restoreButton attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:Nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0 constant:40.0]];
+            
+            //[self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.cancelButton attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeLeading multiplier:1.0 constant:60.0]];
+            
+           //[self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.cancelButton attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTop multiplier:1.0 constant:435.0]];
+            
+            //[self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.cancelButton attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:Nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0 constant:200.0]];
+            
+            //[self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.cancelButton attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:Nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0 constant:50.0]];
+        }
     }
 
 }
